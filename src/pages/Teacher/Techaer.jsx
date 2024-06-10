@@ -10,6 +10,7 @@ import Blog7Img from '../../utils/images/sweta.jpeg';
 import Blog8Img from '../../utils/images/dubey.jpeg';
 import Blog9Img from '../../utils/images/anjali.jpeg';
 import Blog10Img from '../../utils/images/pragya.jpeg';
+import Blog11Img from '../../utils/images/ritesh.jpeg';
 
 
 const testimonials = [
@@ -72,6 +73,12 @@ const testimonials = [
     position: 'Senior Math Teacher ',
     image: [Blog9Img], // Make sure to place your image in the public directory
     testimonial: 'B.SC(Math)',
+  },
+  {
+    name: 'Ritesh Sahu',
+    position: 'Senior Science Teacher ',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B.Tech',
   },
 ];
 
