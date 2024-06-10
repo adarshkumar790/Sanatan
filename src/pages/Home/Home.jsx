@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
-import StartCoursesImg from '../../utils/images/addmission.jpeg';
+import StartCoursesImg from '../../utils/images/addmission.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import { Card } from 'react-bootstrap';
 import Blog1Img from '../../utils/images/Dpriti.jpeg';
@@ -60,8 +60,8 @@ function Home() {
             <div className="container">
                 <div className='row d-flex align-items-center justify-content-around'>
                     <div className='col-lg-5'>
-                        <h2 className='text-capitalize fw-semibold'>2024 Admission Start</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+                        <h2 className='text-capitalize fw-semibold'>Admission Start</h2>
+                        <p>Admissions for the upcoming academic year have officially commenced, offering prospective students the opportunity to embark on an enriching educational journey with us.</p>
                         <Link to="/contact">
                             <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Enquery</button>
                         </Link>

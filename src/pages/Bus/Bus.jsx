@@ -1,5 +1,5 @@
 import React from 'react';
-// import './Blog.css';
+ import './Bus.css';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import Blog1Img from '../../utils/images/bus1.jpeg';
@@ -71,7 +71,7 @@ const blogs = [
 
 function Bus() {
   return (
-    <div className='blog-page'>
+    <div className='bus-page'>
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>Bus Facilities</h1>

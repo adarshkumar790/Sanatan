@@ -54,8 +54,8 @@ const blogs = [
     {
         id: 4,
         img: [Blog4Img],
-        title: 'Blog 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Gyan Baan-Awareness through archery',
+        description: 'Prize distribution ceremony for archery competition at BNR Chanakya with Komlika Bari.'
     },
     {
         id: 5,
@@ -72,8 +72,8 @@ const blogs = [
     {
         id: 7,
         img: [Blog7Img],
-        title: 'Blog 7',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Health Campaign',
+        description: 'Health campaign to identify various minor ailments among students.'
     },
     {
         id: 8,
@@ -90,8 +90,8 @@ const blogs = [
     {
         id: 10,
         img: [Blog10Img],
-        title: 'Blog 10',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: '',
+        description: 'A glimpse of our culture and tradition introducing us to Jharkhand.'
     },
     {
         id: 11,

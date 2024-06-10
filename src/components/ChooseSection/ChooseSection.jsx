@@ -19,7 +19,7 @@ function ChooseSection() {
                                 2 trophies received
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                            Our school proudly received two prestigious trophies this year, recognizing our excellence in academic achievements and sportsmanship.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -36,7 +36,7 @@ function ChooseSection() {
                                 We keep our students happy
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                            At our school, we prioritize student happiness by fostering a supportive, engaging, and inclusive learning environment.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -53,7 +53,7 @@ function ChooseSection() {
                                 2 locations in Jharkhand
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                            Our school has two convenient locations in Jharkhand: one in the bustling city of Ranchi and the other in the scenic town of Rehala.
                             </Card.Text>
                         </Card.Body>
                     </Card>

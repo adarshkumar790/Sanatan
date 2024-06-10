@@ -1,5 +1,14 @@
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
 .contact-page header {
-    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/contact-page-header.jpg);
+    background: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/contact.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: moveBackground 10s linear infinite;
 }
 
 #contact-form {

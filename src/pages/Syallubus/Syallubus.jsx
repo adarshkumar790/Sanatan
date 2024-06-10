@@ -70,7 +70,7 @@ function Syallubus() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>Our Syallubus</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!</p>
+                <p className='text-center w-75 mb-5'>A syllabus serves as a comprehensive roadmap for a course, outlining the objectives, expectations, materials, schedule, and assessment methods to guide both students and instructors toward successful learning outcomes.</p>
             </div>
         </header>
  
