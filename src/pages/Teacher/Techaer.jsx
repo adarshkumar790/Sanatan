@@ -10,7 +10,7 @@ import Blog7Img from '../../utils/images/sweta.jpeg';
 import Blog8Img from '../../utils/images/dubey.jpeg';
 import Blog9Img from '../../utils/images/anjali.jpeg';
 import Blog10Img from '../../utils/images/pragya.jpeg';
-import Blog11Img from '../../utils/images/ritesh.jpeg';
+import Blog11Img from '../../utils/images/riteshsahu.jpeg';
 
 
 const testimonials = [
