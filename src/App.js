@@ -105,14 +105,14 @@ function App() {
                     <Link to="/" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Home</li>
                     </Link>
-                    <Link to="/courses" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Our courses</li>
-                    </Link>
+                    {/* <Link to="/courses" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Our </li>
+                    </Link> */}
                     <Link to="/about" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>About us</li>
                     </Link>
-                    <Link to="/blog" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>Blog</li>
+                    <Link to="/gallery" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Gallery</li>
                     </Link>
                     <Link to="/contact" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Get In Touch</li>
@@ -125,7 +125,7 @@ function App() {
                       <p>SANATAN ROAD, JAMUARY, KANKE, RANCHI</p>
                     </li>
                     <li>
-                      <p>Phone-9576035071,82104994365</p>
+                      <p>Phone-9576035071, 8210499465</p>
                     </li>
                     <li>
                       <p>Email:-sanatanvidyan@gmail.com</p>

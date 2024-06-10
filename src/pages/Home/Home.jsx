@@ -40,11 +40,11 @@ function Home() {
                 <h3 className='text-center fw-semibold'>SANATAN ROAD, JAMUARY, KANKE, RANCHI</h3>
                 <h2 className='text-center text-color-red fw-semibold'>Achieving Excellence Together</h2>
                 <h4 className='text-center fw-semibold'>Email:-sanatanvidyan@gmail.com</h4>
-                <h4 className='text-center fw-semibold'>Mob:-9576035071, 82104994365</h4>
+                <h4 className='text-center fw-semibold'>Mob:-9576035071, 8210499465</h4>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
-                    <Link to="/courses">
-                        <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Subject</button>
-                    </Link>
+                    {/* <Link to="/courses">
+                        <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'></button>
+                    </Link> */}
                     <Link to="/contact">
                         <button type='button' className='btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
                     </Link>
@@ -79,7 +79,7 @@ function Home() {
 
         <div className='blog-section text-light py-5'>
             <div className='container d-flex flex-column align-items-center'>
-                <h2 className='text-center text-capitalize mb-5'>Latest on the blog</h2>
+                <h2 className='text-center text-capitalize mb-5'>Latest on the gallery</h2>
                 <div className='row g-4'>
                     {blogs.map((blog) => (
                         <div key={blog.id} className='col-md-6 col-lg-4'>
@@ -96,7 +96,7 @@ function Home() {
                     ))}
                 </div>
                 <Link to="/gallery">
-                    <button type='button' className='btn btn-danger btn-lg mt-5'>Read More Blogs</button>
+                    <button type='button' className='btn btn-danger btn-lg mt-5'>Read More gallery</button>
                 </Link>
             </div>
         </div>

@@ -3,7 +3,7 @@
   background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/about-page-header.jpg);
 } */
 /* Background image for testimonials header */
-.testimonials-container header {
+/* .testimonials-container header {
   background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url('../../utils/images/teacher.avif');
   background-size: cover;
   background-position: center;
@@ -11,7 +11,21 @@
   color: white;
   padding: 2rem 0;
   text-align: center;
+} */
+
+@keyframes moveBackground {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
 }
+
+.testimonials-container header {
+  background: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/teacher.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: moveBackground 10s linear infinite;
+}
+
 
 /* Styling for the testimonials section */
 .testimonials-title {

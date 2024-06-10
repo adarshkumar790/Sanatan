@@ -82,7 +82,7 @@ function About() {
             <ChooseSection />
         </div>
 
-        <div className='bg-body-tertiary py-5'>
+        {/* <div className='bg-body-tertiary py-5'>
             <div className="container">
                 <h2 className='text-center mb-5'>Our Winners</h2>
                 <div className='row g-4'>
@@ -93,7 +93,7 @@ function About() {
                     ))}
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
