@@ -75,8 +75,8 @@ function Bus() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>Bus Facilities</h1>
-                <p className='text-center w-75'>Table</p>
-                <p className='text-center w-75 mb-5'>Time</p>
+                {/* <p className='text-center w-75'>Table</p>
+                <p className='text-center w-75 mb-5'>Time</p> */}
            
             </div>
         </header>

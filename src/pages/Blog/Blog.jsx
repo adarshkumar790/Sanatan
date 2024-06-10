@@ -79,13 +79,13 @@ const blogs = [
         id: 8,
         img: [Blog8Img],
         title: 'Navratri Celebration',
-        description: ''
+        description: 'A distinct form of the goddess is venerated, symbolizing, knowledge courage and purity.'
     },
     {
         id: 9,
         img: [Blog9Img],
-        title: 'Blog 9',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Navratri Celebration',
+        description: 'Offering prayers to Goddess Navdurga and seeking blessings to protect everyone from evil.'
     },
     {
         id: 10,
@@ -96,8 +96,8 @@ const blogs = [
     {
         id: 11,
         img: [Blog11Img],
-        title: 'Blog 11',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'A company of archers',
+        description: 'A unified battalion of skilled individuals, who are prepared to shoot their arrows with precision.'
     },
     {
         id: 12,
@@ -126,8 +126,8 @@ const blogs = [
     {
         id: 16,
         img: [Blog16Img],
-        title: 'Blog 16',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Sports Day',
+        description: 'The cheers and war cries reaching the ears as one stood on the field'
     },
     {
         id: 17,
@@ -138,8 +138,8 @@ const blogs = [
     {
         id: 18,
         img: [Blog18Img],
-        title: 'Blog 18',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Welcome of our Chief guest',
+        description: 'Inaugral function of Shri Ajay Michyari. Chief general manager, Reserve Bank of India.'
     },
     {
         id: 19,
@@ -174,8 +174,8 @@ const blogs = [
     {
         id: 24,
         img: [Blog24Img],
-        title: 'Blog 24',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Friends and Comrades',
+        description: 'Football has a unique and irreplaceable capacity to unite people, goining for beyond ethical, religious or social differences.'
     },{
         id: 25,
         img: [Blog25Img],
@@ -188,8 +188,8 @@ const blogs = [
     },{
         id: 27,
         img: [Blog27Img],
-        title: 'Blog 27',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+        title: 'Navratri',
+        description: 'A vivid reminder of diverse cultural heritage of India.'
     },{
         id: 28,
         img: [Blog28Img],
@@ -222,7 +222,7 @@ function Blog() {
                                 <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'>
                                     <Card.Img variant="top" src={blog.img} />
                                     <Card.Body className='p-md-5 d-flex flex-column align-items-center'>
-                                        <Card.Title className='fs-2 mb-4'>{blog.title}</Card.Title>
+                                        <Card.Title className='fs-2 mb-4 text-center'>{blog.title}</Card.Title>
                                         <Card.Text className='text-center'>{blog.description}</Card.Text>
                                     </Card.Body>
                                 </Card>

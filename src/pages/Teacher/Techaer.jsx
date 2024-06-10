@@ -11,14 +11,20 @@ import Blog8Img from '../../utils/images/dubey.jpeg';
 import Blog9Img from '../../utils/images/anjali.jpeg';
 import Blog10Img from '../../utils/images/pragya.jpeg';
 import Blog11Img from '../../utils/images/riteshsahu.jpeg';
-
+import Blog12Img from '../../utils/images/Principal.jpeg';
 
 const testimonials = [
   {
+    name: '',
+    position: 'Principal',
+    image: [Blog12Img], 
+    testimonial: '',
+  },
+  {
     name: 'Pragya Awasthi',
-    position: 'Voice Principal',
+    position: 'Vice Principal',
     image: [Blog10Img], 
-    testimonial: 'M.A(ENG)',
+    testimonial: 'M.A, NTT, CIC',
   },
   {
     name: 'Pratima Singh',
