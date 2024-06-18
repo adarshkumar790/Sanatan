@@ -10,23 +10,24 @@ import Blog2Img from '../../utils/images/av.jpeg';
 import Blog3Img from '../../utils/images/swa.jpeg';
 
 const blogs = [
+    
     {
         id: 1,
-        img: [Blog1Img],
-        title: 'Blog 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        img: [Blog2Img],
+        title: 'Welcome ceremony',
+        description: "Hon'ble Secretary Vinoy Kr Pandey with Shri Ajay Michyari, Ex-chief General Manager, RBI."
     },
     {
         id: 2,
-        img: [Blog2Img],
-        title: 'Blog 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        img: [Blog1Img],
+        title: 'Health Checkup Camp', 
+        description: 'Identifying & addressing health issues to the participants.'
     },
     {
         id: 3,
         img: [Blog3Img],
-        title: 'Blog 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Durga - Puja Celebration',
+        description: "Little Lord Rama and Mata Sita offering card to the respected Director, Mrs. Swapna Pandey."
     }
 ];
 

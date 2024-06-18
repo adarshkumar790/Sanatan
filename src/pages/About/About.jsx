@@ -50,7 +50,7 @@ const persons = [
         id: 9,
         img: [Person9]
     },
-];
+];  
 
 function About() {
   return (
@@ -66,8 +66,8 @@ function About() {
             <div className="row">
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
                     <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>SANATAN VIDHYA NIKETAN (PVT) was established in 2003 and it is managed by the Unrecognised. It is located in Urban area. It is located in BISHRAMPUR block of PALAMU district of Jharkhand. The school consists of Grades from 1 to 8. The school is Co-educational and it have an attached pre-primary section. The school is Private in nature and is not using school building as a shift-school. English is the medium of instructions in this school. This school is approachable by all weather road. In this school academic session starts in April.</p>
-                    <p className='mb-4 mb-lg-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quas ipsa assumenda eos veritatis nemo fuga dolore saepe eius, laborum earum magni id quae quidem tempore tempora consequuntur eveniet voluptatibus, suscipit atque, voluptatem blanditiis deleniti perferendis dolores. Architecto corporis sit suscipit labore modi sint facilis alias laboriosam facere et? Quo eum neque dolores iure, nam voluptates nesciunt quisquam modi maxime alias! Blanditiis vel dicta voluptates ab vero quia incidunt facilis ratione deserunt, inventore atque necessitatibus?</p>
+                    <p>SANATAN VIDYA NIKETAN (PVT) was established in 2012 and it is managed by Rishikul Shaikashanik Sansthan. It is located in Rural area of Jamuary, Kanke, Ranchi district of Jharkhand. The school consists of Grades from 1 to 8. The school is Co-educational and it has an attached pre-primary section. The school is Private in nature and is not using school building as a shift-school. English is the medium of instructions in this school. In this school academic session starts in April.</p>
+                    <p className='mb-4 mb-lg-5'></p>
                     <Link to="/contact">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
                     </Link>

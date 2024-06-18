@@ -13,6 +13,7 @@ import Blog8Img from '../../utils/images/blog8-img.jpg';
 import Blog9Img from '../../utils/images/blog9-img.jpg';
 import Bus1 from "../../utils/images/svnschool.jpeg";
 
+
 const blogs = [
     {
         id: 1,
