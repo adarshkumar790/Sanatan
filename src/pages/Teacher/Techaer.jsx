@@ -15,7 +15,7 @@ import Blog12Img from '../../utils/images/Principal.jpeg';
 
 const testimonials = [
   {
-    name: 'Dr. Dinesh Singh',
+    name: 'Dr. Dinesh Kr Singh',
     position: 'Principal',
     image: [Blog12Img], 
     testimonial: 'M.Sc(Chem), P.h.D',
