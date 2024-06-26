@@ -92,7 +92,7 @@ function Syallubus() {
                         1.Sleeping live, standing, slanting, Curved line, Circle, 2.a to z in small letter, 
                         3.A to Z in small letter, 4.Vowels - a,e,i,o,u, 4.Vowels, 5.Use - "A" and "An", 6.Use-This and That, 
                         7.Use - in and on Look at the pictures and write the frist letter missing letter.
-                        <h3>Math</h3>
+                        <h3>Maths</h3>
                         1.Ditto,odd,Big,Small,Long,Short,More and Less, 2.Number name - 1-10, 3.Counting - 1 to 100/Backward counting 100 - 1,
                         5.What come after, 6.What come before, 7.What come in between, 8.Addition/Substraction.
                     </Accordion.Body>
@@ -105,7 +105,7 @@ function Syallubus() {
                        5.Being Clen, 6.GrandPa Farukh's Garden, 7.My Best Friend, 8.The Kind-hearted one, 9.Kindness.
                        <h3>English(Work Book)</h3>
                        1.Self, Family, and Home, 2.My School, 3.Food and Health, 4.Nature, 5.Caring and Kindness.
-                       <h3>Math(Course Book)</h3>
+                       <h3>Maths(Course Book)</h3>
                        1.Numbers up to 20, 2.Addition up to 10, 3.Shapes, 4.Addition and Substraction up to 20, 5.Measurement, 6.Numbers up to 100,
                        7.Addition and Substraction up to 99, 8.Time and Money Data Handling, 9.Patterns Introduction and Division.
                        <h3>Math(Work Book)</h3>
@@ -130,7 +130,7 @@ function Syallubus() {
                 <Accordion.Item eventKey='3'>
                     <Accordion.Header>Class II Syallubus</Accordion.Header>
                     <Accordion.Body>
-                    <h3>Math</h3>
+                    <h3>Maths</h3>
                     1.Numbers up to 200, 2.Addition, 3.Subdtraction, 4.Multiplication, 5.Division, 6.Numbers up to 1000,
                     7.Addition and Substraction of Number up to 99, 8.More Multiplication, 9.Meaurement, 10.Shapes, 11.Patterns, 12.Time,
                     13.Money, 14.Data Handling.
@@ -182,7 +182,7 @@ function Syallubus() {
                 <Accordion.Item eventKey='5'>
                     <Accordion.Header>Class IV Syallubus</Accordion.Header>
                     <Accordion.Body> 
-                     <h3>Math</h3>
+                     <h3>Maths</h3>
                      1.Larger numbers, 2.Addition & Subtraction, 3.Multiplication, 4.Division, 5.Factors & Multiples,
                      6.Fractions, 7.Decimals, 8.The world of shapes, 9.Patterns and Symmetry, 10.Metric measures, 
                      11.Perimeterand area, 12.Time, 13.Money, 14.Data handling.
@@ -210,12 +210,7 @@ function Syallubus() {
                      <h3></h3>
 
                     </Accordion.Body>
-                    <Accordion.Body>
-                       It has been 12 years since our School opened.
-                    </Accordion.Body>
-                    <Accordion.Body>
-                       It has been 12 years since our School opened.
-                    </Accordion.Body>
+                    
                 </Accordion.Item>
                 <Accordion.Item eventKey='6'>
                     <Accordion.Header>Classs V Syallubus</Accordion.Header>
@@ -405,9 +400,6 @@ function Syallubus() {
                     <h3>Computer</h3>
                     1.Windows Movie Makes, 2.Flash CS4, 3.QBASIC, 4.Visual Basic, 5.Database, 6.Microsoft Access, 7.Photoshop CS5,
                     8.Internet and E-Commerce, 9.How Printers and Scanners work, 10.Cyber law and Ethics, 11.Mobile Computing.
-                     
-
-
                     </Accordion.Body>
                 </Accordion.Item>
                 
