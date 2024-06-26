@@ -50,52 +50,53 @@ const persons = [
         id: 9,
         img: [Person9]
     },
-];  
+];
 
 function About() {
-  return (
-    <div className='about-page'>
-        <header className='height-75'>
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>About Us</h1>
-                <p className='text-center w-75 mb-5'>The school gallery showcases a vibrant tapestry of student life, capturing memorable moments, achievements, and creative endeavors within our educational community.</p>
-            </div>
-        </header>
+    return (
+        <div className='about-page'>
+            <header className='height-75'>
+                <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
+                    <h1 className='text-center fw-semibold'>About Us</h1>
+                    <p className='text-center w-75 mb-5'>The school gallery showcases a vibrant tapestry of student life, capturing memorable moments, achievements, and creative endeavors within our educational community.</p>
+                </div>
+            </header>
 
-        <div className='container my-5'>
-            <div className="row">
-                <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
-                    <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>SANATAN VIDYA NIKETAN (PVT) was established in 2012 and it is managed by Rishikul Shaikashanik Sansthan. It is located in Rural area of Jamuary, Kanke, Ranchi district of Jharkhand. The school consists of Grades from 1 to 8. The school is Co-educational and it has an attached pre-primary section. The school is Private in nature and is not using school building as a shift-school. English is the medium of instructions in this school. In this school academic session starts in April.</p>
-                    <p className='mb-4 mb-lg-5'></p>
-                    <Link to="/contact">
-                        <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
-                    </Link>
-                </div>
-                <div className='col-lg-6 d-flex justify-content-center'>
-                    <img src={AboutUsSectionImg} className='img-fluid w-75' alt="" />
+            <div className='container my-5'>
+                <div className="row">
+                    <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
+                        <h2 className='mb-4 mb-lg-5'>Study with us</h2>
+                        <p className='w-150'>
+                            Sanatan Vidya Niketan (Pvt) was established in 2012 and is managed by Rishikul Shaikshanik Sansthan. It is located in the rural area of Jamuary, Kanke, Ranchi district, Jharkhand. The school consists of Grades 1 to 8. It is a co-educational institution with an attached pre-primary section. The school is privately run and does not operate as a shift-school. English is the medium of instruction. The academic session starts in April.
+                        </p>
+                        <Link to="/contact">
+                            <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
+                        </Link>
+                    </div>
+                    <div className='col-lg-6 d-flex justify-content-center'>
+                        <img src={AboutUsSectionImg} className='img-fluid w-75' alt="" />
+                    </div>
                 </div>
             </div>
+
+            <div className='bg-dark text-light py-5'>
+                <ChooseSection />
+            </div>
+
+            {/* <div className='bg-body-tertiary py-5'>
+                <div className="container">
+                    <h2 className='text-center mb-5'>Our Winners</h2>
+                    <div className='row g-4'>
+                        {persons.map((person) => (
+                            <div key={person.id} className='col-md-4'>
+                                <img src={person.img} className='img-fluid' alt="" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div> */}
         </div>
-
-        <div className='bg-dark text-light py-5'>
-            <ChooseSection />
-        </div>
-
-        {/* <div className='bg-body-tertiary py-5'>
-            <div className="container">
-                <h2 className='text-center mb-5'>Our Winners</h2>
-                <div className='row g-4'>
-                    {persons.map((person) => (
-                        <div key={person.id} className='col-md-4'>
-                            <img src={person.img} className='img-fluid' alt="" />
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </div> */}
-    </div>
-  )
+    )
 }
 
 export default About;

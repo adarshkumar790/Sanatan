@@ -18,11 +18,11 @@ const testimonials = [
     name: 'Dr. Dinesh Kr Singh',
     position: 'Principal',
     image: [Blog12Img], 
-    testimonial: 'M.Sc(Chem), P.h.D',
+    testimonial: 'M.Sc (Chem), P.h.D',
   },
   {
     name: 'Pragya Awasthi',
-    position: 'Vice Principal',
+    position: 'Vice-Principal',
     image: [Blog10Img], 
     testimonial: 'M.A, NTT, CIC',
   },
@@ -30,23 +30,23 @@ const testimonials = [
     name: 'Pratima Singh',
     position: 'Senior Hindi Teacher',
     image: [Blog1Img], 
-    testimonial: 'M.A, B.ED',
+    testimonial: 'M.A, B.Ed',
   },
   {
     name: 'Jyoti Rani',
-    position: 'Junior Math Teacher',
+    position: 'Junior Maths Teacher',
     image: [Blog2Img], 
-    testimonial: 'B.ED, M.Com',
+    testimonial: 'B.Ed, M.Com',
   },
   {
     name: 'Prabin Kumar Jha',
     position: 'Senior English Teacher',
     image: [Blog3Img], // Make sure to place your image in the public directory
-    testimonial: 'D.El.Ed, B.A',
+    testimonial: 'B.A, D.El.Ed',
   },
   {
     name: 'Saraswati Oraon',
-    position: 'Math Teacher',
+    position: 'Maths Teacher',
     image: [Blog4Img], // Make sure to place your image in the public directory
     testimonial: 'B.SC, NTT',
   },
@@ -54,19 +54,19 @@ const testimonials = [
     name: 'Priti Devi',
     position: 'G.K & E.V.S',
     image: [Blog5Img], // Make sure to place your image in the public directory
-    testimonial: 'D.El.Ed, I.COM',
+    testimonial: 'I.Com, D.El.Ed',
   },
   {
     name: 'Neha Kerketta',
     position: 'Junior Teacher',
     image: [Blog6Img], // Make sure to place your image in the public directory
-    testimonial: 'M.A',
+    testimonial: 'M.A ()',
   },
   {
     name: 'Sweta Tirkey',
     position: 'Junior Hindi Teacher',
     image: [Blog7Img], // Make sure to place your image in the public directory
-    testimonial: 'M.A, B.ED',
+    testimonial: 'M.A, B.Ed',
   },
   {
     name: 'Santosh Dubey',
@@ -76,9 +76,9 @@ const testimonials = [
   },
   {
     name: 'Anjali Kumari',
-    position: 'Senior Math Teacher ',
+    position: 'Senior Maths Teacher ',
     image: [Blog9Img], // Make sure to place your image in the public directory
-    testimonial: 'B.SC(Math)',
+    testimonial: 'B.SC(Maths)',
   },
   {
     name: 'Ritesh Sahu',

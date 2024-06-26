@@ -37,7 +37,7 @@ function Home() {
         <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
-                <h1 className='text-center fw-semibold'>SANATAN VIDYA NIKETAN</h1>
+                <h2 className='text-center fw-semibold'>SANATAN VIDYA NIKETAN</h2>
                 <h3 className='text-center fw-semibold'>SANATAN ROAD, JAMUARY, KANKE, RANCHI</h3>
                 <h2 className='text-center text-color-red fw-semibold'>Achieving Excellence Together</h2>
                 <h4 className='text-center fw-semibold'>Email:-sanatanvidyan@gmail.com</h4>
