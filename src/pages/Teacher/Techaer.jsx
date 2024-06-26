@@ -42,7 +42,7 @@ const testimonials = [
     name: 'Prabin Kumar Jha',
     position: 'Senior English Teacher',
     image: [Blog3Img], // Make sure to place your image in the public directory
-    testimonial: 'D.LE.ED, B.A',
+    testimonial: 'D.El.Ed, B.A',
   },
   {
     name: 'Saraswati Oraon',
@@ -54,7 +54,7 @@ const testimonials = [
     name: 'Priti Devi',
     position: 'G.K & E.V.S',
     image: [Blog5Img], // Make sure to place your image in the public directory
-    testimonial: 'D.LE.ED, I.COM',
+    testimonial: 'D.El.Ed, I.COM',
   },
   {
     name: 'Neha Kerketta',
