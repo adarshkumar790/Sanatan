@@ -101,9 +101,9 @@ const blogs = [
     },
     {
         id: 12,
-        img: [Blog12Img],
-        title: 'Archery Competition',
-        description: 'Loosed arrow whistling through the air and hitting its target'
+        img: [Blog26Img],
+        title: 'Student with Certificates',
+        description: 'A resounding success of sports day filled with excitement and camaraderie'
     },
     {
         id: 13,
@@ -176,15 +176,18 @@ const blogs = [
         img: [Blog24Img],
         title: 'Friends and Comrades',
         description: 'Football has a unique and irreplaceable capacity to unite people, goining for beyond ethical, religious or social differences.'
-    },{
+    },
+    {
         id: 25,
         img: [Blog25Img],
         title: 'International yoga day ',
-        description: 'The School organised a  plethora of activities for students of all ages ranging from "Asanas, Pranayam to Suryanamaskar"'},{
+        description: 'The School organised a  plethora of activities for students of all ages ranging from "Asanas, Pranayam to Suryanamaskar"'
+    },
+    {
         id: 26,
-        img: [Blog26Img],
-        title: 'Student with Certificates',
-        description: 'A resounding success of sports day filled with excitement and camaraderie'
+        img: [Blog12Img],
+        title: 'Archery Competition',
+        description: 'Loosed arrow whistling through the air and hitting its target'
     },{
         id: 27,
         img: [Blog27Img],
