@@ -80,6 +80,22 @@ function Syallubus() {
             {/* <p className='text-center mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam rem expedita similique necessitatibus dolore magnam natus sit ipsa, quae neque accusantium placeat laudantium mollitia, reprehenderit alias incidunt, delectus obcaecati cupiditate sed omnis repudiandae eos! Quasi unde veritatis labore quibusdam.</p> */}
             <Accordion defaultActiveKey="" flush>
             <Accordion.Item eventKey='0'>
+                    <Accordion.Header>Class P.G Syallubus</Accordion.Header>
+                    <Accordion.Body>
+                              <h3>Half Yearly</h3>
+                             2-7 Trace the pattern.
+                             8-13 Trace the Number.
+                             14-21 Trace the Number.
+                             22-31 Trace the Number.
+                             32-41 Trace the Number.
+                             <h3>Final Exam</h3>
+                             42-49 Trace the Number.
+                             50-55 Colour the picture according to the number.
+                             56-60 Revision 1-20 on dotted catterpillar.s
+                       </Accordion.Body>
+                </Accordion.Item>
+               
+            <Accordion.Item eventKey='1'>
                     <Accordion.Header>Class L.K.G Syallubus</Accordion.Header>
                    
                     <Accordion.Body>
@@ -103,9 +119,32 @@ function Syallubus() {
                     Write all the capital letters in the space provided.
                     <h3>The First book of A B C</h3>
                     <h3>P.T-1</h3>
+                    a to m small letters, A to M capital letters.
+                    <h3>Half Yearly</h3>
+                    n to z small letters, N to Z capital letters, Reconize the pictures and write the first letter of their names, Fruits name.
+                    <h3>P.T-2</h3>
+                    Vegetables name, Birds name, Animals name.
+                    <h3>Final Exam</h3>
+                    Read and Say it Aloud, A for Apple to Z to Zebra, Bird name, Animals name.
+                    <h3>Sing Along Nursery Rhymes</h3>
+                    <h3>Half Yearly</h3>
+                    1.Birdie , Birdie.
+                    2.Butterfly , Butterfly.
+                    3.Twinkle, Twinkle, Little star.
+                    4. Good Night.
+                    5. BAA, BAA, Black Sheep.
+                    6. Ding Dong Bell.
+                    7.A, B, C.
+                    <h3>Final Exam</h3>
+                    8.A B C Song, 9.Charley Barley, 10.Eeny, Meeny, Miney, Moe.
+                    11. Rain , Rain Go Away.
+                    12. Patter - Patter Raidrops.
+                    13. After A Bath. 
+                    14. Chubby cheeks.
+                    15. Humpty Dumpty.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='1'>
+                <Accordion.Item eventKey='2'>
                     <Accordion.Header>Class U.K.G Syallubus</Accordion.Header>
                     <Accordion.Body>
                         <h3>English</h3>
@@ -117,7 +156,7 @@ function Syallubus() {
                         5.What come after, 6.What come before, 7.What come in between, 8.Addition/Substraction.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='2'>
+                <Accordion.Item eventKey='3'>
                     <Accordion.Header>Class I Syallubus</Accordion.Header>
                     <Accordion.Body>
                        <h3>English(Course Book)</h3>
@@ -167,7 +206,7 @@ function Syallubus() {
                        22.Our Helpers.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='3'>
+                <Accordion.Item eventKey='4'>
                     <Accordion.Header>Class II Syallubus</Accordion.Header>
                     <Accordion.Body>
                     <h3>Maths</h3>
@@ -224,7 +263,7 @@ function Syallubus() {
                        13.The Air we Bradth, 14.We Need Clean Water, 15.The Sky and Seasons, 16.Directions.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='4'>
+                <Accordion.Item eventKey='5'>
                     <Accordion.Header>Class III Syallubus</Accordion.Header>
                     <Accordion.Body>
                        <h3>English</h3>
@@ -303,7 +342,7 @@ function Syallubus() {
                        55.Signs and Symbols, 56.Saying at right, 57.World sportspersons, 58.First in India.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='5'>
+                <Accordion.Item eventKey='6'>
                     <Accordion.Header>Class IV Syallubus</Accordion.Header>
                     <Accordion.Body> 
                      <h3>Maths</h3>
@@ -394,7 +433,7 @@ function Syallubus() {
                     </Accordion.Body>
                     
                 </Accordion.Item>
-                <Accordion.Item eventKey='6'>
+                <Accordion.Item eventKey='7'>
                     <Accordion.Header>Classs V Syallubus</Accordion.Header>
                     <Accordion.Body>
                        <h3>English</h3>
@@ -504,7 +543,7 @@ function Syallubus() {
                        <hr/>
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='7'>
+                <Accordion.Item eventKey='8'>
                     <Accordion.Header>Class VI Syallubus</Accordion.Header>
                     <Accordion.Body>
                           <h3>Maths</h3>
@@ -619,7 +658,7 @@ function Syallubus() {
                           
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='8'>
+                <Accordion.Item eventKey='9'>
                     <Accordion.Header>Class VII Syallubus</Accordion.Header>
                     <Accordion.Body>
                     <h3>English(Literature)</h3>
@@ -774,7 +813,7 @@ function Syallubus() {
 
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='9'>
+                <Accordion.Item eventKey='10'>
                     <Accordion.Header>Class VIII Syallubus</Accordion.Header>
                     <Accordion.Body>
                     <h3>English Trasure</h3>
