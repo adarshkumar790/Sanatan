@@ -11,6 +11,7 @@ import Contact from './pages/Contact/Contact';
 import Bus from './pages/Bus/Bus';
 import Syallubus from './pages/Syallubus/Syallubus';
 import TeacherTestimonials from './pages/Teacher/Techaer';
+import Mandotry from './pages/Mandotry/Mandotry';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
               {/* <Nav.Link href='/courses' className='text-uppercase'>Subject</Nav.Link> */}
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
+              <Nav.Link href='/manadetory' className='text-uppercase'>Mandatory Disclosure</Nav.Link>
               <Nav.Link href='/teachers' className='text-uppercase'>Teacher</Nav.Link>
               <Nav.Link href='/syallubus' className='text-uppercase'>Syallubus</Nav.Link>
               <Nav.Link href='/gallery' className='text-uppercase'>Gallery</Nav.Link>
@@ -55,6 +57,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Blog />} />
         <Route path='/bus' element={<Bus />} />
+        <Route path='/manadetory' element={<Mandotry/>} />
         <Route path='/syallubus' element={<Syallubus />} />
         <Route path='/teachers' element={<TeacherTestimonials />} />
         <Route path='/contact' element={<Contact />} />
