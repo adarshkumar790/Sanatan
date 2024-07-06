@@ -47,7 +47,12 @@ const information = [
     {
         id: 7,
         title: 'DETAILS OF SPECIAL EDUCATION',
-        description: 'CONTACT DETAILS (LANDLINE/MOBILE)',
+        description: '',
+    },
+    {
+        id: 8,
+        title: 'CONTACT DETAILS (LANDLINE/MOBILE)',
+        description: '',
     },
 ]
 const documents = [

@@ -8,7 +8,7 @@
 }
 
 .about-page header {
-    background: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/about.webp);
+    background: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/disclosure.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
