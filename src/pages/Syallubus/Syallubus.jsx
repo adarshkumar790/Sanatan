@@ -270,9 +270,9 @@ function Syallubus() {
                        1.The weightlifting pricess, 2.Climbing, 3.In-house Garden, 4.The tree, 4.Monkey and myna,
                        5.You can't be that, 7.Tenali Rama and the three dolls, 8.Look, 9.Who is clever.
                       <h3>P.T-1</h3>
-                      1.The weightlifting pricess, 2.Climbing.
+                      1.The weightlifting pricess.
                       <h3>Half Yearly</h3>
-                      3.In-house Garden, 4.The tree.
+                      2.Climbing, 3.In-house Garden, 4.The tree.
                       <h3>P.T-2</h3>
                       5.You can't be that, 6.You can't be that.
                       <h3>Final Exam</h3>
@@ -294,7 +294,7 @@ function Syallubus() {
                        16.Can, Cannot, Should, Should, Not.
                        <h3>P.T-2</h3>
                        17.Articles, 18.Adjectives, 19.Degrees of Comparison, 20.Adverbs, 
-                       21.Prepositions, 22.Conjunctions, 23.The Sentence.
+                       21.Prepositions, 22.Conjunctions.
                        <h3>Final Exam</h3>
                        23.The Sentence, 24.Asking Questions, 25.Contractions, 26.Interjections,
                        27.Punctuation, 28.Using a Dictionary. 29.Word Power, 30.Reading Comprehension, 31.Compostions.
@@ -308,9 +308,9 @@ function Syallubus() {
                       3.Subtraction, 4.Multiplication, 5.Division, 6.Fraction.
                       <h3>P.T-2</h3>
                       7.Shapes,
-                       8.Patterns and Symmetry, 9.Metric measures.
+                       8.Patterns and Symmetry, 
                        <h3>Final Exam</h3>
-                       2.Addition, 3.Substraction, 4.Multiplication, 5.Division
+                       9.Metric measures, 2.Addition, 3.Substraction, 4.Multiplication, 5.Division
                        10.Time, 11.Money, 12.Data handling.
                        <hr/>
                        <h3>E.V.S</h3>
@@ -408,26 +408,36 @@ function Syallubus() {
                      6.The night the moon went missing, 7.The land of zenter pane, 8.Morching to freedom,
                      9.My Song, 10.Sidhartha and the swan, 11.Loli the mouse.
                      <h3>P.T-1</h3>
-                     1.Uncle ken at the wheel, 2.Free in space, 3.Ravan meets his Grandmother.
+                     1.Uncle ken at the wheel, 2.Free in space.
                      <h3>Half Yearly</h3>
-                     4.Flying south, 5.The Bird on the shore,
+                     3.Ravan meets his Grandmother, 
+                     4.Flying south, 5.The Bird on the shore, 3.Ravan meets his Grandmother
                      6.The night the moon went missing.
                      <h3>P.T-2</h3>
-                     7.The land of zenter pane, 8.Morching to freedom.
+                     7.The land of zenter pane, 8.Marching to freedom.
                      <h3>Final Exam</h3>
-                     9.My Song, 10.Sidhartha and the swan, 11.Loli the mouse.
+                     9.My Song, 10.Sidhartha and the swan, 11.Lali the mouse.
                      <h3>Grammar</h3>
                      1.Noun, 2.Compound and proper nouns, 3.Singular and plural nouns, 4.Nouns,
                      5.Processive nouns, 6.Collective, 7.Countable nouns, 8.Pronouns, 9.Verbs, 10.Simple Present,
-                     11.Present countners, 17.Articles, 18.Adjectives, 19.Degrees of comparison, 20.Adverbs.
+                     11.Present countners, 12.Simple Past Tense, 13.Simple Future Tense, 14.Can, Should, May, Must,
+                      15.Subject and Predicate 16.Subject Verb Agreement, 17.Articles, 18.Adjectives,
+                       19.Degrees of comparison, 20.Adverbs, 21.Preposition of Place, Movement and Times, 22.Conjunctions
+                       23.The Sentence, 24.Types of Sentences, 25.Negative Sentence, 26.Intergative Sentence,
+                       27.Construction, 28.Interjections, 29.Punctuation, 30.Using a Dictionary,
+                       31.Word Power, 32.Reading Comprehension, 33.Composiition.
                      <h3>P.T-1</h3>
-                     1.Noun, 2.Compound and proper nouns, 3.Singular and plural nouns, 4.Nouns.
+                     1.Noun, 2.Compound and proper nouns, 3.Singular and plural nouns, 4.Nouns, 5.Processive nouns, 6.Collective, 7.Countable nouns, 8.Pronouns, 9.Verbs.
                      <h3>Half Yearly</h3>
-                     5.Processive nouns, 6.Collective, 7.Countable nouns, 8.Pronouns, 9.Verbs, 10.Simple Present,
+                     10.Simple Present, 11.Present countners, 12.Simple Past Tense, 13.Simple Future Tense, 14.Can, Should, May, Must,
+                     15.Subject and Predicate 16.Subject Verb Agreement, 17.Articles, 18.Adjectives.
                      <h3>P.T-2</h3>
-                     Chap-12-16.
+                     19.Degrees of comparison, 20.Adverbs, 21.Preposition of Place, Movement and Times, 22.Conjunctions
+                       23.The Sentence, 24.Types of Sentences, 25.Negative Sentence, 26.Intergative Sentence,
+                       27.Construction.
                      <h3>Final Exam</h3>
-                     17.Articles, 18.Adjectives, 19.Degrees of comparison, 20.Adverbs.
+                     28.Interjections, 29.Punctuation, 30.Using a Dictionary,
+                       31.Word Power, 32.Reading Comprehension, 33.Composiition.
                     <hr/>
 
                     </Accordion.Body>
@@ -575,16 +585,21 @@ function Syallubus() {
                           17.Adverb, 18.Adverbs of Comparison, 19.Personal Pronouns, 20.Types of Pronouns, 21.Prepositions, 
                           22.More on Preposition, 23.Conjunctions.
                           <hr/>
-                          <h3>Physics</h3>
-                          1.Body Movements, 2.Motion and Measurement of Distance, 3.Light, Shadows and Reflection, 4.Light, Shadows
-                          and Reflection, 5.Electricity and circuits, 6.Electricity and circuits (Continue), 7.Garrage in Garrage out.
-                          <h3>Chemistry</h3>
-                          1.Sorting Materials, 2.Sepration of Substance, 3.Changes around us, 4.Changes arround us (Continue),
-                          5.Water, 6.Air arrounds us.
-                          <h3>Biology</h3>
-                          1.Food-where does it come from?, 2.Components of Food, 3.Fibre to Fibric, 4.Fibre to Fibric(Continue),
-                          5.Getting to know Plants, 6.The Living organisms.
-
+                          <h3>Science</h3>
+                          1.Components of Food, 2.Sorting Materials, 3.Sepration of Substance, 4.Getting to know Plants,
+                          5.Body Movements, 6.The Living organisms - Characteristics and Habitats, 
+                          7.Motion and Measurement of Distance, 8.Light, Shadows and Reflection, 
+                          9.Electricity and circuits (Continue), 10.Fun with Magnets, 11.Air Around US.
+                          <h3>P.T-1</h3>
+                          1.Components of Food.
+                          <h3>Half Yearly</h3>
+                          2.Sorting Materials, 4. Getting to know Plants, 3.Sepration of Substance, .Components of Food.
+                          <h3>P.T-II</h3>
+                          5.Body Movements, 9.Electricity and circuits (Continue), 
+                          <h3>Final Exam</h3>
+                          6.The Living organisms - Characteristics and Habitats.
+                          8.Light, Shadows and Reflection.  10.Fun with Magnets, 11.Air Around US.
+                          <hr/>
                           <h3>History</h3>
                           1.What, Where, How and When, 2.From hunting-Gatherring and Growing food, 3.In the earliest cities, 
                           4.What Books and Burials tell us, 5.Kingdoms, Kingsons, on early Republic, 6.New Questioned and Ideas,
@@ -754,19 +769,18 @@ function Syallubus() {
                      23.Probability, 24.Activities.
                      <hr/>
                      <h3>Science</h3>
-                     1.Nutrition in plants, 2.Nutrition in Animals, 3. , 4.Heat, 5.Acids, Bases, and Salts, 
-                     6.Physical and Chemical Changes, 7. , 8. , 9. , 10.Respiration in Organisms, 11. , 12.Reproduction,
-                     13.Motion and Time, 14.Electric Current an its Effects, 15.Light, 16. , 17.Forests: Our Lifeline, 18.Waste water Story.
+                     1.Nutrition in plants, 2.Nutrition in Animals,  3.Heat, 4.Acids, Bases, and Salts, 
+                     5.Physical and Chemical Changes, 6.Respiration in Organisms, 11.Transportation in Animals and Plants , 8.Reproduction in Plants,
+                     9.Motion and Time, 10.Electric Current an its Effects, 11.Light,  12.Forests: Our Lifeline, 13.Waste water Story.
                      <h3>P.T-1</h3>
                      1.Nutrition in plants, 4.Heat.
                      <h3>Half Yearly</h3>
-                     2.Nutrition in Animals, 5.Acids, Bases, and Salts, 13.Motion and Time, 10. Respiration in Organisms,
-                     1.Nutrition in Plants, 4.Heat.
+                     2.Nutrition in Animals, 5.Physical and Chemical Changes,  4.Acids, Bases, and Salts, 9.Motion and Time. 
                      <h3>P.T-2</h3>
-                     6.Physical and Chemicl Changes, 14.Electric Current and its Effects. 
+                     6.Respiration in Organisms, 10.Electric Current and its Effects. 
                      <h3>Final Exam</h3>
-                     4.Heat, 5.Acids Bases and Salts, 12.Reproduction in plants, 15.Light, 17.Forests: Our Lifeline,
-                     18.Wastewater Story, 19.Electric Current and its Effects.
+                     8.Reproduction in plants, 15.Light, 12.Forests: Our Lifeline,
+                     13.Wastewater Story,   11.Transportation in Animals and Plants
                      <hr/>
                      <h3>History</h3>
                      1.Tracing Changes, 2.New Kings and Kingdoms, 3.The Delhi Saltans, 4.The Mughals Empire, 5.Rulers And Buildings, 6.Towns, Traders And Craftspersons,
@@ -868,17 +882,19 @@ function Syallubus() {
                     Charts, 25.Probability.
                     <hr/>
                     <h3>Science</h3> 
-                    1.1.Crop Production and Management, 1.2.Force and Pressure, 2.Microorganisms: Friend and Foe, 6.Combustion and Flame, 7.Conservation of Plants and Animals, 9.Reproduction in Animals, 
-                    10.Reaching the age of adolescence, 16.Light, 15, Some Natural Phenomena.
+                    1.Crop Production and Management, 2.Microorganisms: Friend and Foe, 3.Coal and Petroleum 
+                     4.Combustion and Flame, 5.Conservation of Plants and Animals, 6.Reproduction in Animals, 
+                    7.Reaching the age of adolescence, 8.Force and Pressure 9.Friction 10.Sound, 
+                    11.Chemical Effect and Electric Current 12.Some Natural Phenomena, 13.Light.
                     <h3>P.T-1</h3>
-                    1.1.Crop Production and Management, 1.2.Force and Pressure.
+                    1.Crop Production and Management, 8.Force and Pressure.
                     <h3>Half Yearly</h3>
-                    2.Microorganisms: Friend and Foe, 12.Friction, 13.Sound, 14.Chemical Effects of electric current.
+                    2.Microorganisms: Friend and Foe, 3.Coal and Petroleum, 4.Combustion and Flame,  9.Friction, 10.Sound.                 <h3>P.T-2</h3>
                     <h3>P.T-2</h3>
-                    6.Combustion and flame, Conservation of Plants and Animals.
+                    5.Conservation of Plants and Animals, 11.Chemical Effect and Electric Current
                     <h3>Final Exam</h3>
-                    9.Reproduction in Animals, 
-                    10.Reaching the age of adolescence, 16.Light, 15.Some Natural Phenomena.
+                    6.Reproduction in Animals, 
+                    7.Reaching the age of adolescence, 13.Light, 12.Some Natural Phenomena.
                     <hr/>
                     <h3>History</h3>
                     1.Introduction - How, When and Where, 2.From Trade to Territory, 3.Ruling the country side, 4.Tribals, Dikus and the vision of a Golden Age,
