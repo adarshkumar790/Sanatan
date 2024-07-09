@@ -1,9 +1,26 @@
 import React from 'react';
 import './Mandotry.css';
+import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import AboutUsSectionImg from '../../utils/images/Sanatan.jpeg';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import document1 from '../../utils/images/doc1.pdf';
+// import  Bathroom from '../../utils/images/Bathroom.jpeg';
+import  ClassRoom from '../../utils/images/Classroom.jpeg';
+import  Library from '../../utils/images/library.jpeg';
+import Staff from '../../utils/images/Staff.jpeg';
+import BoysBathroom from '../../utils/images/Boy.jpeg';
+// import  PlayGround from '../../utils/images/PlayGround.jpeg';
+import  Transport from '../../utils/images/Bus.jpeg';
+import GirlsBathroom from '../../utils/images/Girls.jpeg';
+// import  Water from '../../utils/images/Water.jpeg';
+// import Sport from '../../utils/images/Sport.jpeg';
+// import Canteen from '../../utils/images/Canteen.jpeg';
+import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
+// import ComputerLab from '../../utils/images/ComputerLab.jpeg'; 
+// import BiologyLab from '../../utils/images/BiologyLab.jpeg';
+import PlayGround from '../../utils/images/Play.jpeg';
+import Water from '../../utils/images/Water.jpeg';
 // import document2 from '../../utils/images/document2.pdf';
 // import document3 from '../../utils/images/document3.pdf';
 // import document4 from '../../utils/images/document4.pdf';
@@ -13,26 +30,95 @@ import document1 from '../../utils/images/doc1.pdf';
 // import document8 from '../../utils/images/document8.pdf';
 // import document9 from '../../utils/images/document9.pdf';
 
+const school = [
+          
+          {
+            id: 1,
+            img: [Staff],
+            title: 'Staff Room',
+          },
+          {
+            id: 2,
+            img: [ClassRoom],
+            title: 'Class Room',
+          },
+          {
+            id: 3,
+            img: [Water],
+            title: 'water',
+          },
+          {
+            id: 4,
+            img: [Library],
+            title: 'Library',
+          },
+          {
+           id: 5,
+           img: [GirlsBathroom],
+           title: 'Girls Bathroom',
+          },
+          {
+            id:6,
+            img: [BoysBathroom],
+            title: 'Boys Bathroom',
+          },
+          {
+            id: 7,
+            img: [PlayGround],
+            title: 'Playground',
+          },
+          {
+            id: 8,
+            // img: [Sport],
+            title: 'Sports',
+          },
+          {
+            id: 9,
+            img: [Transport],
+            title: 'Transport',
+          },
+          {
+            id: 10,
+            // img: [Canteen],
+            title: 'Canteen',
+          },
+          {
+            id: 11,
+            img: [ChemistryLab],
+            title: 'Chemistry & Physics Lab',
+          }, 
+          {
+            id: 12,
+            // img: [ComputerLab],
+            title: 'Computer Lab',
+          },
+          {
+            id: 13,
+            // img: [BiologyLab],
+            title: 'Biology Lab',
+          }
+     ]
+
 const information = [
     {
       id: 1,
       title: 'NAME OF SCHOOL',
-      description: '1',
+      description: 'SANATAN VIDYA NIKETAN',
     },
     {
       id: 2,
       title: 'AFFILIATION NO. (IF APPLICABLE)',
-      description: '1',
+      description: 'N/A',
     },
     {
       id: 3,
       title: 'SCHOOL CODE (IF APPLICABLE)',
-      description: '',
+      description: 'N/A',
     },
     {
         id: 4,
         title: 'COMPLETE ADDRESS WITH PIN CODE',
-        description: '',
+        description: 'Sanatan Road, Jamuary, Kanke, Ranchi, Jharkhand - 834 006',
     },
     {
         id: 5,
@@ -42,7 +128,7 @@ const information = [
     {
         id: 6,
         title: 'SCHOOL EMAIL ID',
-        description: '',
+        description: 'sanatanvidyan@gmail.com',
     },
     {
         id: 7,
@@ -359,6 +445,26 @@ const Mandotry = () => {
           </tbody>
         </table>
       </div>      
+
+      <div className='bg-body-tertiary py-5'>
+            <div className="container">
+                <div className="row g-4">
+                    {school.map((blog) => (
+                        <div key={blog.id} className='col-md-6 col-lg-4'>
+                            <Link to="/gallery" className='text-decoration-none'>
+                                <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'>
+                                    <Card.Img variant="top" src={blog.img} />
+                                    <Card.Body className='p-md-5 d-flex flex-column align-items-center'>
+                                        <Card.Title className='fs-2 mb-4 text-center'>{blog.title}</Card.Title>
+                                        <Card.Text className='text-center'>{blog.description}</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
 
     </div>
   );
