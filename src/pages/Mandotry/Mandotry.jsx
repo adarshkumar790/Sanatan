@@ -149,7 +149,7 @@ const documents = [
   {
     id: 1,
     name: 'COPIES OF AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF AFFILIATION',
-    url: document1,
+    // url: document1,
   },
   {
     id: 2,
