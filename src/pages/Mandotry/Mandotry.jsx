@@ -24,11 +24,15 @@ import Water from '../../utils/images/Water.jpeg';
 // import document2 from '../../utils/images/document2.pdf';
 // import document3 from '../../utils/images/document3.pdf';
 // import document4 from '../../utils/images/document4.pdf';
-// import document5 from '../../utils/images/document5.pdf';
-// import document6 from '../../utils/images/document6.pdf';
+// import document5 from '../../utils/images/FireSafety.pdf';
+import document5 from '../../utils/images/Fire Safety.pdf' 
+import document6 from '../../utils/images/Bldg CBSE.pdf';
 // import document7 from '../../utils/images/document7.pdf';
 // import document8 from '../../utils/images/document8.pdf';
-// import document9 from '../../utils/images/document9.pdf';
+// import document9 from '../../utils/images/document9.pdf';/
+import document10 from '../../utils/images/Bldg Safety NOC.pdf'
+import result from '../../utils/images/Fee Structure.pdf'
+import result5 from '../../utils/images/Strength.pdf'
 
 const school = [
           
@@ -165,25 +169,30 @@ const documents = [
   {
     id: 5,
     name: 'COPY OF VALID FIRE SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    // url: document5,
+    url: document5,
   },
   {
     id: 6,
     name: 'COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    // url: document6,
+    url: document6,
   },
   {
-    id: 7,
+   id: 7,
+   name : 'COPY OF BUILDING NOC  CERTIFICATE',
+   url: document10,
+  },
+  {
+    id: 8,
     name: 'COPY OF THE SELF CERTIFICATION SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATION',
     // url: document7,
   },
   {
-    id: 8,
+    id: 9,
     name: 'COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES',
     // url: document8,
   },
   {
-    id: 9,
+    id: 10,
     name: 'COPY OF LAND CERTIFICATE',
     // url: document9,
   },
@@ -194,7 +203,7 @@ const results = [
     {
       id: 1,
       name: 'FEE STRUCTURE OF THE SCHOOL',
-    //   url: document1,
+      url: result,
     },
     {
       id: 2,
@@ -213,8 +222,8 @@ const results = [
     },
     {
       id: 5,
-      name: 'LAST THREE-YEAR RESULT OF THE BORAD EXAMINATION AS PER APPLICABLILITY',
-      // url: document5,
+      name: 'STUDENT STRENGTH',
+      url: result5
     }
     
   ];
