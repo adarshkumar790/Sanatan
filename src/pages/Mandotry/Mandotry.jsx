@@ -23,7 +23,7 @@ import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
 // import document2 from '../../utils/images/document2.pdf';
 // import document3 from '../../utils/images/document3.pdf';
-// import document4 from '../../utils/images/document4.pdf';
+import document4 from '../../utils/images/Recogination.pdf';
 // import document5 from '../../utils/images/FireSafety.pdf';
 import document5 from '../../utils/images/Fire Safety.pdf' 
 import document6 from '../../utils/images/Bldg CBSE.pdf';
@@ -33,6 +33,10 @@ import document6 from '../../utils/images/Bldg CBSE.pdf';
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
 import result from '../../utils/images/Fee Structure.pdf'
 import result5 from '../../utils/images/Strength.pdf'
+import result3 from '../../utils/images/SMC.pdf'
+import result4 from '../../utils/images/TeacherList.pdf'
+import result6 from '../../utils/images/NonTeacherList.pdf'
+import document11 from '../../utils/images/3yrsAudit.pdf'
 
 const school = [
           
@@ -164,7 +168,7 @@ const documents = [
   {
     id: 4,
     name: 'COPY OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2019, AND ITS RENEWAL',
-    // url: document4,
+    url: document4,
   },
   {
     id: 5,
@@ -196,6 +200,11 @@ const documents = [
     name: 'COPY OF LAND CERTIFICATE',
     // url: document9,
   },
+  {
+    id: 11,
+    name: '3 YRS AUDIT REPORT',
+    url:document11
+  }
 ];
 
 
@@ -213,18 +222,25 @@ const results = [
     {
       id: 3,
       name: 'LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)',
-      // url: document3,
+      url:result3
     },
     {
       id: 4,
-      name: 'LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS',
-      // url: document4,
+      name: 'TEACHER LIST',
+      url: result4,
     },
     {
       id: 5,
+      name: 'NON TEACHING STAFF',
+      url: result6
+
+    },
+    {
+      id: 6,
       name: 'STUDENT STRENGTH',
       url: result5
-    }
+    },
+    
     
   ];
 
