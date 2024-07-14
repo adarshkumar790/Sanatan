@@ -31,11 +31,14 @@ import document6 from '../../utils/images/Bldg CBSE.pdf';
 // import document8 from '../../utils/images/document8.pdf';
 // import document9 from '../../utils/images/document9.pdf';/
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
+import document12 from '../../utils/images/Self certification.pdf'
+import document13 from '../../utils/images/Rooms.pdf'
 import result from '../../utils/images/Fee Structure.pdf'
 import result5 from '../../utils/images/Strength.pdf'
 import result3 from '../../utils/images/SMC.pdf'
 import result4 from '../../utils/images/TeacherList.pdf'
 import result6 from '../../utils/images/NonTeacherList.pdf'
+
 import document11 from '../../utils/images/3yrsAudit.pdf'
 
 const school = [
@@ -75,36 +78,36 @@ const school = [
             img: [PlayGround],
             title: 'Playground',
           },
-          {
-            id: 8,
-            // img: [Sport],
-            title: 'Sports',
-          },
+          // {
+          //   id: 8,
+          //   // img: [Sport],
+          //   title: 'Sports',
+          // },
           {
             id: 9,
             img: [Transport],
             title: 'Transport',
           },
-          {
-            id: 10,
-            // img: [Canteen],
-            title: 'Canteen',
-          },
+          // {
+          //   id: 10,
+          //   // img: [Canteen],
+          //   title: 'Canteen',
+          // },
           {
             id: 11,
             img: [ChemistryLab],
             title: 'Chemistry & Physics Lab',
           }, 
-          {
-            id: 12,
-            // img: [ComputerLab],
-            title: 'Computer Lab',
-          },
-          {
-            id: 13,
-            // img: [BiologyLab],
-            title: 'Biology Lab',
-          }
+          // {
+          //   id: 12,
+          //   // img: [ComputerLab],
+          //   title: 'Computer Lab',
+          // },
+          // {
+          //   id: 13,
+          //   // img: [BiologyLab],
+          //   title: 'Biology Lab',
+          // }
      ]
 
 const information = [
@@ -204,7 +207,19 @@ const documents = [
     id: 11,
     name: '3 YRS AUDIT REPORT',
     url:document11
+  },
+  {
+    id:12,
+    name: 'SCHOOL AFFIDAVIT',
+    url: document12,
+  },
+  {
+    id:13,
+    name: 'ROOM DETAILS AFFIDAVIT',
+    url: document13,
   }
+
+
 ];
 
 
