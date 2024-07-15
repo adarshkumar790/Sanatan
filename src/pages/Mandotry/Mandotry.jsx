@@ -281,12 +281,12 @@ const results = [
     {
         id: 4,
         title: 'TGT',
-        description: '10',
+        description: '9',
     },
     {
         id: 5,
         title: 'PRT',
-        description: '2',
+        description: '3',
     },
     {
         id: 6,
