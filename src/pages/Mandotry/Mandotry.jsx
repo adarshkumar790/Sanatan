@@ -29,7 +29,7 @@ import document5 from '../../utils/images/Fire Safety.pdf'
 import document6 from '../../utils/images/Bldg CBSE.pdf';
 import document7 from '../../utils/images/nonpriopertycertificate.pdf';
 import document8 from '../../utils/images/WaterJamuary.pdf';
-// import document9 from '../../utils/images/document9.pdf';/
+import document9 from '../../utils/images/Lands.pdf';
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
 import document12 from '../../utils/images/Self certification.pdf'
 import document13 from '../../utils/images/Rooms.pdf'
@@ -199,7 +199,7 @@ const documents = [
   {
     id: 10,
     name: 'COPY OF LAND CERTIFICATE',
-    // url: document9,
+    url: document9,
   },
   {
     id: 11,
