@@ -22,7 +22,7 @@ import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
 import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
 import document2 from '../../utils/images/SocietyCertificate.pdf';
-// import document3 from '../../utils/images/document3.pdf';
+import document3 from '../../utils/images/NOCJAMUARY.pdf';
 import document4 from '../../utils/images/Recognition.pdf';
 // import document5 from '../../utils/images/FireSafety.pdf';
 import document5 from '../../utils/images/Fire Safety.pdf' 
@@ -163,7 +163,7 @@ const documents = [
   {
     id: 3,
     name: 'COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT',
-    // url: document3,
+    url: document3,
   },
   {
     id: 4,
