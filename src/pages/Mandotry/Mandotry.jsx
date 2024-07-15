@@ -34,9 +34,10 @@ import document10 from '../../utils/images/Bldg Safety NOC.pdf'
 import document12 from '../../utils/images/Self certification.pdf'
 import document13 from '../../utils/images/Rooms.pdf'
 import document14 from '../../utils/images/deed.pdf'
-import result from '../../utils/images/Fee Structure.pdf'
+import result from '../../utils/images/Fees.pdf'
 import result5 from '../../utils/images/Strength.pdf'
 import result3 from '../../utils/images/SMCJamuary.pdf'
+import result2 from '../../utils/images/Calender.pdf'
 import result4 from '../../utils/images/TeacherList.pdf'
 import result6 from '../../utils/images/NonTeacherList.pdf'
 
@@ -235,7 +236,7 @@ const results = [
     {
       id: 2,
       name: 'ANNUAL ACADEMIC CALANDER,',
-      // url: document2,
+      url: result2,
     },
     {
       id: 3,
