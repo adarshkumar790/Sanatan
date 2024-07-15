@@ -36,7 +36,7 @@ import document13 from '../../utils/images/Rooms.pdf'
 import document14 from '../../utils/images/deed.pdf'
 import result from '../../utils/images/Fee Structure.pdf'
 import result5 from '../../utils/images/Strength.pdf'
-import result3 from '../../utils/images/SMC.pdf'
+import result3 from '../../utils/images/SMCJamuary.pdf'
 import result4 from '../../utils/images/TeacherList.pdf'
 import result6 from '../../utils/images/NonTeacherList.pdf'
 
