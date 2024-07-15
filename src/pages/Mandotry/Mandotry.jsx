@@ -28,7 +28,7 @@ import document4 from '../../utils/images/Recognition.pdf';
 import document5 from '../../utils/images/Fire Safety.pdf' 
 import document6 from '../../utils/images/Bldg CBSE.pdf';
 import document7 from '../../utils/images/nonpriopertycertificate.pdf';
-// import document8 from '../../utils/images/document8.pdf';
+import document8 from '../../utils/images/WaterJamuary.pdf';
 // import document9 from '../../utils/images/document9.pdf';/
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
 import document12 from '../../utils/images/Self certification.pdf'
@@ -193,7 +193,7 @@ const documents = [
   {
     id: 9,
     name: 'COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES',
-    // url: document8,
+    url: document8,
   },
   {
     id: 10,
