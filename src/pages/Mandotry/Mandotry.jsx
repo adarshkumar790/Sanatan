@@ -31,7 +31,7 @@ import document7 from '../../utils/images/SVNNoneProperity.pdf';
 // import document8 from '../../utils/images/document8.pdf';
 // import document9 from '../../utils/images/document9.pdf';/
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
-import document12 from '../../utils/images/Self certification.pdf'
+import document12 from '../../utils/images/nonprioperty.pdf'
 import document13 from '../../utils/images/Rooms.pdf'
 import document14 from '../../utils/images/deed.pdf'
 import result from '../../utils/images/Fee Structure.pdf'
