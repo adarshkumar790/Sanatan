@@ -21,13 +21,13 @@ import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
 // import BiologyLab from '../../utils/images/BiologyLab.jpeg';
 import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
-// import document2 from '../../utils/images/document2.pdf';
+import document2 from '../../utils/images/SocietyCertificate.pdf';
 // import document3 from '../../utils/images/document3.pdf';
 import document4 from '../../utils/images/Recogination.pdf';
 // import document5 from '../../utils/images/FireSafety.pdf';
 import document5 from '../../utils/images/Fire Safety.pdf' 
 import document6 from '../../utils/images/Bldg CBSE.pdf';
-// import document7 from '../../utils/images/document7.pdf';
+import document7 from '../../utils/images/SVNNoneProperity.pdf';
 // import document8 from '../../utils/images/document8.pdf';
 // import document9 from '../../utils/images/document9.pdf';/
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
@@ -158,7 +158,7 @@ const documents = [
   {
     id: 2,
     name: 'COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE',
-    // url: document2,
+    url: document2,
   },
   {
     id: 3,
@@ -188,7 +188,7 @@ const documents = [
   {
     id: 8,
     name: 'COPY OF THE SELF CERTIFICATION SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATION',
-    // url: document7,
+    url: document7,
   },
   {
     id: 9,
