@@ -98,7 +98,7 @@ function About() {
         <ChooseSection />
       </div>
 
-      <div className='container py-5'>
+      {/* <div className='container py-5'>
         <h2 className='text-center mb-5'>B: DOCUMENTS AND INFORMATION</h2>
         <table className='table table-striped'>
           <thead>
@@ -120,7 +120,7 @@ function About() {
             ))}
           </tbody>
         </table>
-      </div>
+      </div> */}
     </div>
   );
 }

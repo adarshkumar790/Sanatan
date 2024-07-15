@@ -33,6 +33,7 @@ import document6 from '../../utils/images/Bldg CBSE.pdf';
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
 import document12 from '../../utils/images/Self certification.pdf'
 import document13 from '../../utils/images/Rooms.pdf'
+import document14 from '../../utils/images/deed.pdf'
 import result from '../../utils/images/Fee Structure.pdf'
 import result5 from '../../utils/images/Strength.pdf'
 import result3 from '../../utils/images/SMC.pdf'
@@ -217,7 +218,13 @@ const documents = [
     id:13,
     name: 'ROOM DETAILS AFFIDAVIT',
     url: document13,
+  },
+  {
+    id:14,
+    name: 'DEED',
+    url: document14,
   }
+
 
 
 ];
