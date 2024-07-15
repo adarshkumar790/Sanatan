@@ -142,13 +142,9 @@ const information = [
         title: 'SCHOOL EMAIL ID',
         description: 'sanatanvidyan@gmail.com',
     },
+   
     {
         id: 7,
-        title: 'DETAILS OF SPECIAL EDUCATION',
-        description: '',
-    },
-    {
-        id: 8,
         title: 'CONTACT DETAILS (LANDLINE/MOBILE)',
         description: '',
     },
@@ -211,7 +207,7 @@ const documents = [
   },
   {
     id:12,
-    name: 'SCHOOL AFFIDAVIT',
+    name: 'SCHOOL AFFIDAVIT - QUALITY EDUCATION',
     url: document12,
   },
   {
@@ -221,7 +217,7 @@ const documents = [
   },
   {
     id:14,
-    name: 'DEED',
+    name: 'LAND LIST DEED',
     url: document14,
   }
 
@@ -290,7 +286,7 @@ const results = [
     },
     {
         id: 6,
-        title: 'STUDENTS TEACHERS SECTION RATIO',
+        title: 'STUDENTS TEACHERS RATIO',
         description: '20:1',
     },
     {
@@ -298,11 +294,11 @@ const results = [
         title: 'DETAILS OF SPECIAL EDUCATION',
         description: 'NA',
     },
-    {
-        id: 8,
-        title: 'DETAILS OF COUNSELLOR AND WELNESS TEACHERS',
-        description: '2',
-    }
+    // {
+    //     id: 8,
+    //     title: 'DETAILS OF COUNSELLOR AND WELNESS TEACHERS',
+    //     description: '2',
+    // }
 
 ]  
 
@@ -310,33 +306,33 @@ const infrastructure = [
     {
       id: 1,
       title: 'TOTAL CMAPUS AREA OF THE SCHOOL (IN SQUARE MRT)',
-      description: '1',
+      description: '8000 Sq/m',
     },
-    {
-      id: 2,
-      title: 'NO. AND SIZE OF THE CLASS ROOMS (IN SQ MTR)',
-      description: '1',
-    },
-    {
-      id: 3,
-      title: 'NO. AND SIZE LABORATORIES INCLUDING COMPUTER LABS (IN SQ MTR)',
-      description: '',
-    },
+    // {
+    //   id: 2,
+    //   title: 'NO. AND SIZE OF THE CLASS ROOMS (IN SQ MTR)',
+    //   description: '1',
+    // },
+    // {
+    //   id: 3,
+    //   title: 'NO. AND SIZE LABORATORIES INCLUDING COMPUTER LABS (IN SQ MTR)',
+    //   description: '',
+    // },
     {
         id: 4,
         title: 'INTERNET FACILITY (Y/N)',
-        description: '',
+        description: 'YES',
     },
-    {
-        id: 5,
-        title: 'NO. OF GIRLS TOILETS',
-        description: '',
-    },
-    {
-        id: 6,
-        title: 'NO. OF BOYS TOILETS',
-        description: '',
-    },
+    // {
+    //     id: 5,
+    //     title: 'NO. OF GIRLS TOILETS',
+    //     description: '',
+    // },
+    // {
+    //     id: 6,
+    //     title: 'NO. OF BOYS TOILETS',
+    //     description: '',
+    // },
     
 ]
 
