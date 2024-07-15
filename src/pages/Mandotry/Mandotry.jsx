@@ -23,7 +23,7 @@ import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
 import document2 from '../../utils/images/SocietyCertificate.pdf';
 // import document3 from '../../utils/images/document3.pdf';
-import document4 from '../../utils/images/Recognition_organized.pdf';
+import document4 from '../../utils/images/Recognition.pdf';
 // import document5 from '../../utils/images/FireSafety.pdf';
 import document5 from '../../utils/images/Fire Safety.pdf' 
 import document6 from '../../utils/images/Bldg CBSE.pdf';
@@ -187,7 +187,7 @@ const documents = [
   },
   {
     id: 8,
-    name: 'COPY OF THE SELF CERTIFICATION SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATION',
+    name: 'AFFIDAVIT - NON PROPRIETARY CHARACTER OF SOCIETY',
     url: document7,
   },
   {
@@ -202,7 +202,7 @@ const documents = [
   },
   {
     id: 11,
-    name: '3 YRS AUDIT REPORT',
+    name: '3 YEARS AUDIT REPORT',
     url:document11
   },
   {
@@ -217,7 +217,7 @@ const documents = [
   },
   {
     id:14,
-    name: 'LAND LIST DEED',
+    name: 'LAND LEASE DEED',
     url: document14,
   }
 
