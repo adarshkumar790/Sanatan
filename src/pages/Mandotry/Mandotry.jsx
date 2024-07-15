@@ -207,7 +207,7 @@ const documents = [
   },
   {
     id:12,
-    name: 'SCHOOL AFFIDAVIT - QUALITY EDUCATION',
+    name: 'SELF CERTIFICATION',
     url: document12,
   },
   {
