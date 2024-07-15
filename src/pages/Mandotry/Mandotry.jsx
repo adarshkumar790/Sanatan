@@ -23,7 +23,7 @@ import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
 import document2 from '../../utils/images/SocietyCertificate.pdf';
 // import document3 from '../../utils/images/document3.pdf';
-import document4 from '../../utils/images/Recogination.pdf';
+import document4 from '../../utils/images/Recognition_organized.pdf';
 // import document5 from '../../utils/images/FireSafety.pdf';
 import document5 from '../../utils/images/Fire Safety.pdf' 
 import document6 from '../../utils/images/Bldg CBSE.pdf';
