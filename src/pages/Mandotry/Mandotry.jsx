@@ -40,6 +40,7 @@ import result3 from '../../utils/images/SMCJamuary.pdf'
 import result2 from '../../utils/images/Calender.pdf'
 import result4 from '../../utils/images/TeacherList.pdf'
 import result6 from '../../utils/images/NonTeacherList.pdf'
+import result7 from '../../utils/images/Parrent Teachers.pdf'
 
 import document11 from '../../utils/images/3yrsAudit.pdf'
 
@@ -259,6 +260,11 @@ const results = [
       name: 'STUDENT STRENGTH',
       url: result5
     },
+    {
+      id:7,
+      name: 'PARENT TEACHER',
+      url: result7,
+    }
     
     
   ];
