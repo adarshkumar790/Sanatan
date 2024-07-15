@@ -276,26 +276,21 @@ const results = [
     {
       id: 2,
       title: 'TOTAL NO. OF TEACHERS',
-      description: '13',
-    },
-    {
-      id: 3,
-      title: 'PGT',
-      description: '3',
+      description: '12',
     },
     {
         id: 4,
         title: 'TGT',
-        description: '5',
+        description: '10',
     },
     {
         id: 5,
         title: 'PRT',
-        description: '5',
+        description: '2',
     },
     {
         id: 6,
-        title: 'TEACHERS SECTION RATIO',
+        title: 'STUDENTS TEACHERS SECTION RATIO',
         description: '20:1',
     },
     {
