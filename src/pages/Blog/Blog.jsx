@@ -31,9 +31,84 @@ import Blog26Img from '../../utils/images/gallery26.jpeg';
 import Blog27Img from '../../utils/images/gallery4.jpeg';
 import Blog28Img from '../../utils/images/gallery28.jpeg';
 import Blog29Img from '../../utils/images/gallery29.jpeg';
+import Blog30Img from '../../utils/images/i1.jpeg';
+import Blog31Img from '../../utils/images/i2.jpeg';
+import Blog32Img from '../../utils/images/i3.jpeg';
+import Blog33Img from '../../utils/images/i4.jpeg';
+import Blog34Img from '../../utils/images/i5.jpeg';
+import Blog35Img from '../../utils/images/i6.jpeg';
+import Blog36Img from '../../utils/images/i7.jpeg';
+import Blog37Img from '../../utils/images/i8.jpeg';
+import Blog38Img from '../../utils/images/i9.jpeg';
+import Blog39Img from '../../utils/images/i10.jpeg';
+import Blog40Img from '../../utils/images/i11.jpeg';
+import Blog41Img from '../../utils/images/i12.jpeg';
+
+
 
 
 const blogs = [
+    {
+        id: 1,
+        img: [Blog30Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 2,
+        img: [Blog31Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 3,
+        img: [Blog32Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 4,
+        img: [Blog33Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 5,
+        img: [Blog34Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 6,
+        img: [Blog35Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 7,
+        img: [Blog36Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 8,
+        img: [Blog37Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 9,
+        img: [Blog38Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 10,
+        img: [Blog39Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 11,
+        img: [Blog40Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    }, {
+        id: 12,
+        img: [Blog41Img],
+        title: 'Independence Day Celebration',
+        // description: 'Outshining in the creative skill and team work bring laurels to the school',
+    },
     {
         id: 1,
         img: [Blog1Img],
