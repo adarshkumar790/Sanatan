@@ -89,7 +89,7 @@ const testimonials = [
   },
   {
     name: 'Shalinee Kumari',
-    position: 'Assistant Teacher ',
+    position: 'Computer Teacher ',
     image: [Blog13Img], // Make sure to place your image in the public directory
     testimonial: 'B.Com',
   },
