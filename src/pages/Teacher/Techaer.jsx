@@ -12,6 +12,7 @@ import Blog9Img from '../../utils/images/anjali.jpeg';
 import Blog10Img from '../../utils/images/pragya.jpeg';
 import Blog11Img from '../../utils/images/riteshsahu.jpeg';
 import Blog12Img from '../../utils/images/Principal.jpeg';
+import Blog13Img from '../../utils/images/Shalini.jpeg';
 
 const testimonials = [
   {
@@ -85,6 +86,12 @@ const testimonials = [
     position: 'Senior Science Teacher ',
     image: [Blog11Img], // Make sure to place your image in the public directory
     testimonial: 'B.Tech',
+  },
+  {
+    name: 'Shalinee Kumari',
+    position: 'Assistant Teacher ',
+    image: [Blog13Img], // Make sure to place your image in the public directory
+    testimonial: 'B.Com',
   },
 ];
 
