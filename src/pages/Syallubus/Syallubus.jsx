@@ -489,7 +489,7 @@ function Syallubus() {
                       <h3>P.T-1</h3>
                       1.More on large Number, 2.Operations on large Numbers.
                       <h3>Half Yearly</h3>
-                       3. Fractions and Multiples, 4.Fractions,  5.Decimals,
+                       3. Factors and Multiples, 4.Fractions,  5.Decimals,
                        6.Basic Geometry, 7.Patterns and Symmetry.
                        <h3>P.T-2</h3>
 
