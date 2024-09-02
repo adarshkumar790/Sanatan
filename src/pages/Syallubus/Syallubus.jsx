@@ -487,15 +487,17 @@ function Syallubus() {
                        6.Basic Geometry, 7.Patterns and Symmetry, 8.Metric Measures, 9.Perimeter and Area, 10.Volume and Nets, 
                        11.Time and Temperature, 12.Life Mathematics, 13.Mapping Skills, 14.Data Handling.
                       <h3>P.T-1</h3>
-                      1.More on large Number, 2.Operations on large Numbers, 3.Factors and Multiples.
+                      1.More on large Number, 2.Operations on large Numbers.
                       <h3>Half Yearly</h3>
-                      4. Fractions, 5.Decimals,
-                       6.Basic Geometry, 7.Patterns and Symmetry, 8.Metric Measures.
+                       3. Fractions and Multiples, 4.Fractions,  5.Decimals,
+                       6.Basic Geometry, 7.Patterns and Symmetry.
                        <h3>P.T-2</h3>
-                       9.Perimeter and Area, 10.Volume and Nets, 
-                       11.Time and Temperature.
+
+                       8.Metric Measure, 9.Perimeter and Area. 
+                       
                        <h3>Final Exam</h3>
-                       11.Time and Temperature, 12.Life Mathematics, 13.Mapping Skills, 14.Data Handling.
+                       11.Time and Temperature, 12.Life Mathematics, 13.Mapping Skills, 14.Data Handling,
+                       9.Perimeter and Area, 4.Fractions.
                        <hr/>
                        <h3>EVS</h3>
                        1.Anusha's Family, 2.Games we play, 3.Our work, 4.From the Farm, 5.The journey of Food, 6.Breathing - In and Out,
