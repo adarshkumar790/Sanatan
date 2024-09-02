@@ -91,7 +91,24 @@ function Syallubus() {
                              <h3>Final Exam</h3>
                              42-49 Trace the Number.
                              50-55 Colour the picture according to the number.
-                             56-60 Revision 1-20 on dotted catterpillar.s
+                             56-60 Revision 1-20 on dotted catterpillar.
+                             <br/>
+                             <h3>Pattern Writting</h3>
+                             <h3>Half Yearly</h3>
+                             2-5. Trace and Write the Pattern.
+                             6-7. Trace and write the pattern.
+                             8-9. Trace and write the Pattern.
+                             10-13. Trace and Write the pattern.
+                             14-17. Trace and Write the pattern.
+                             <h3>Final Exam</h3>
+                             18-21. Trace and Colour.
+                             22-25. Trace the Colour.
+                             26-32. Trace the Colour.  
+                             <h3>All in ONE Reading</h3>
+                             <h3>Half Yearly</h3>
+                             1.Alphabet, 2.Hindi Varnmala, 3.Numbers.
+                             <h3>Final Examination</h3>
+                             4.General Knowledge, 5.Rhymes, 6.Bal Geet.
                        </Accordion.Body>
                 </Accordion.Item>
                
@@ -111,11 +128,13 @@ function Syallubus() {
                     <h3>P.T-1</h3>
                     Sleeping line, standing line, stanting line, Cuved line, Circle.
                     <h3>Half Yearly</h3>
-                    Feel and write Capital Letters, A to H, Slating line, curved line, circles.
-                    <h3>P.T-2</h3>
+                    A to H, 
+                    Feel and write Capital Letters, A to H, Slating line, Curved line, Circles.
+                    <h3>P.T-2</h3> 
+                    I to P, 
                     Write the first letter of each picture look at the given pictures and write the correct capital letters.
                     <h3>Final</h3>
-                    A to Z
+                    Q to Z
                     Write all the capital letters in the space provided.
                     <h3>The First book of A B C</h3>
                     <h3>P.T-1</h3>
@@ -125,7 +144,7 @@ function Syallubus() {
                     <h3>P.T-2</h3>
                     Vegetables name, Birds name, Animals name.
                     <h3>Final Exam</h3>
-                    Read and Say it Aloud, A for Apple to Z to Zebra, Bird name, Animals name.
+                    Read and Say it Aloud, A for Apple to Z to Zebra, Birds name, Animals name.
                     <h3>Sing Along Nursery Rhymes</h3>
                     <h3>Half Yearly</h3>
                     1.Birdie , Birdie.
@@ -136,7 +155,7 @@ function Syallubus() {
                     6. Ding Dong Bell.
                     7.A, B, C.
                     <h3>Final Exam</h3>
-                    8.A B C Song, 9.Charley Barley, 10.Eeny, Meeny, Miney, Moe.
+                    8.A B C Song, 9.Charley Barley, 10.Eeny, Meeny, Miny, Moe.
                     11. Rain , Rain Go Away.
                     12. Patter - Patter Raidrops.
                     13. After A Bath. 
@@ -151,9 +170,22 @@ function Syallubus() {
                         1.Sleeping live, standing, slanting, Curved line, Circle, 2.a to z in small letter, 
                         3.A to Z in small letter, 4.Vowels - a,e,i,o,u, 4.Vowels, 5.Use - "A" and "An", 6.Use-This and That, 
                         7.Use - in and on Look at the pictures and write the frist letter missing letter.
+                        <h3>Half Yearly</h3>
+                        3-10. Sleeping line, standing, Stunting, Curved line, Circles. 11-18. a to z in small letter, 
+                        19-26. A to Z capital letter in cursive.
+                        27-34. Vowels - a, e, i, o, u, 35-42. Vowels.
+                        <h3>Final Exam</h3>
+                        43-49. Use - "A" and "An", 50-58. Use - This and that.
+                        59-64. use - in and on Look at this pictures and write the first letter, missing letter.
                         <h3>Maths</h3>
                         1.Ditto,odd,Big,Small,Long,Short,More and Less, 2.Number name - 1-10, 3.Counting - 1 to 100/Backward counting 100 - 1,
                         5.What come after, 6.What come before, 7.What come in between, 8.Addition/Substraction.
+                        <h3>Half Yearly</h3>
+                        3-12. Ditto, odd, Big, small, Long, short more and Less, 13-21. Number name - 1 to 10.
+                        22-29. Counting - 1 to 100/Backward counting 100-1, 30-38. Backward Counting 100-1.
+                        39-47. What come after.
+                        <h3>Final Exam</h3>
+                        48-55 What come before, 56-61.What come in between. 62-69.Addition/Subsraction.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3'>
@@ -166,7 +198,7 @@ function Syallubus() {
                       1.The Birth Chocolate My House, 2.It is Good to Share.
                       <h3>Half Yearly</h3>
                       3.Number and Letter Land, 4.Give me Jam,
-                       5.Being Clen.
+                       5.Being Clean.
                        <h3>P.T-2</h3>
                        6.GrandPa Farukh's Garden, 7.My Best Friend.
                        <h3>Final Exam</h3>
@@ -174,11 +206,22 @@ function Syallubus() {
                        <h3>English(Work Book)</h3>
                        1.Self, Family, and Home, 2.My School, 3.Food and Health, 4.Nature, 5.Caring and Kindness.
                         <hr/>
+                        <h3>English (Work Book)</h3>
+                        1.Self family and home, 2.My School, 3.Food and Health, 4.Nature, 5.Caring and Kindness,
+                        <h3>PT-1</h3>
+                        1.Self family and home, 2.My School.
+                        <h3>Half Yearly</h3>
+                        3.Food and Health.
+                        <h3>P.T-2</h3>
+                        4.Nature.
+                        <h3>Final Year</h3>
+                        5.Caring and Kindness.
+                        <hr/>
                        <h3>Maths(Course Book)</h3>
                        1.Numbers up to 20, 2.Addition up to 10, 3.Shapes, 4.Addition and Substraction up to 20, 5.Measurement, 6.Numbers up to 100,
                        7.Addition and Substraction up to 99, 8.Time and Money Data Handling, 9.Patterns Introduction and Division.
                        <h3>P.T-1</h3>
-                       1.Numbers up to 20, 2.Addition up to 10, 3.Shapes.
+                       1.Numbers up to 20, 2.Addition up to 10.
                        <h3>Half Yearly</h3>
                        3.Shapes, 4.Addition and Substraction up to 20, 5.Measurement.
                        <h3>P.T-2</h3>
@@ -187,13 +230,32 @@ function Syallubus() {
                        <h3>Final Exam</h3>
                        8.Time and Money Data Handling, 9.Patterns Introduction and Division.
                        <h3>Math(Work Book)</h3>
-                       1.Number up to 20, Addition up to 20, Substraction up to 20, 2.Shapes, 3.Addistion and Substraction up to 20, Numbers up to 50,
+                       1.Number up to 20, Addition up to 20, Substraction up to 20, 2.Shapes, 3.Addition and Substraction up to 20, Numbers up to 50,
                        4.Measurement, 4.Numbers up to 100, 5.A Addition and Substraction up to 99, 6.Time and Money Data Handling, 7.Patterns Introsuction to Multiplication and Division.
+                         <h3>P.T-1</h3>
+                         1-6. Number up tp 20, Addition up to 20, Subtraction upto 20.
+                         <h3>Half Yearly</h3>
+                         11-14. Shapes, 
+                         15-27. Addition and Substraction up to 20, Number upto 50.
+                         28-30. Measurement.
+                         <h3>P.T-2</h3>
+                         31-34. Numbers upto 100, 35-40. Addition and Substraction upto 99.
+                         <h3>Final Year</h3>
+                         41-44. Time and Money, Data Handling.
+                         48-51. Patterns. Introduction to Multiplication and Division.
                        <hr/>
                        <h3>E.V.S(Course Book)</h3>
                        1.All About Me My Wonderful Body My Family, 2.My Home, My School, 3.Places and People Around us, 4.The food we Eat Food Art Clother We Wear, 
                        5.Healthy Habits Some Safety Rules, 6.Plants Around Us, 7.Animals Around and Staying Connected, 8.Air Around US Water is Precious, 
                        9.The Sky and the Earth.
+                       <h3>P.T-1</h3>
+                       1.All About me, My wonderful Body and Family.
+                       <h3>Half Yearly</h3>
+                       Places and People, Around US, Food we eat food art, Clother We Wear, Healthy Habits.
+                       <h3>P.T-2</h3>
+                       Some safety rules, Plant Arouns Us.
+                       <h3>Final Exam</h3>
+                       Animal Around Us, Going Around and Staying connected, Air around us, Water is precious, The sky and the Earth.
                        <h3>E.V.S(Work Book)</h3>
                        1.All About me, My Wonderfull Body, My Family, 2.My Flame, My School, 3.Places and People Around us, 4.The Food we Eat food Art, Clother We Wear Healthy Habits, Some Safety Rules,
                        5.Plants Around us, 6.Animal Around us Going Around And Staying Connected, 7.Air Around us Water is Precious, 8.The Sky 
@@ -219,7 +281,7 @@ function Syallubus() {
                     3.Subdtraction, 4.Multiplication, 5.Division, 6.Numbers up to 1000,
                     7.Addition and Substraction of Number up to 99.
                     <h3>P.T-2</h3>
-                    8.More Multiplication, 9.Meaurement, 10.Shapes, 11.Patterns.
+                    8.More Multiplication, 9.Meaurement.
                     <h3>Final Exam</h3> 
                     10.Shapes, 11.Patterns, 12.Time,
                     13.Money, 14.Data Handling.
@@ -236,12 +298,12 @@ function Syallubus() {
                         <h3>Final Exam</h3>
                         8.Five Little Seeds, 9.Manju Loves Bihu, 10.A Ring Day.
                         <hr/>
-                       <h3>English</h3>
+                       <h3>E.V.S</h3>
                        1.The Boastful Crow, 2.Mama Antelope's House, 3.Foxy Joxy Plays a Trick, 4.Passport, 5.The Stag and His Reflaction, 6.The Elephant and the Sparrows, 7.Baby Lin Roars. 
                        <h3>P.T-1</h3>
-                       1.The Boastful Crow, 2.Mama Antelope's House.
+                       1.The Boastful Crow.
                        <h3>Half Yearly</h3>
-                       3.Foxy Joxy Plays a Trick, 4.Passport.
+                       2.Mama Antelope's House. 3.Foxy Joxy Plays a Trick, 4.Passport.
                        <h3>P.T-2</h3>
                        5.The Stag and His Reflaction.
                        <h3>Final Exam</h3>
@@ -274,7 +336,7 @@ function Syallubus() {
                       <h3>Half Yearly</h3>
                       2.Climbing, 3.In-house Garden, 4.The tree.
                       <h3>P.T-2</h3>
-                      5.You can't be that, 6.You can't be that.
+                      5.Monkey and myna, 6.You can't be that.
                       <h3>Final Exam</h3>
                       7.Tenali Rama and the three dolls, 8.Look, 9.Who is clever.
                       <hr/>
@@ -335,6 +397,19 @@ function Syallubus() {
                        13.Continous, 14.Relatives, 15.Who Am I, 16.Parts of plants, 17.Animal Homes, 18.Our Food, 19.Homes and Building, 
                        20.Personlities, 21.Language Skills, 22.Language in India, 23.Staes and Capitals, 24.Playtime, 25.Science Time, 26.Rules for strangers,
                        27.The Olypics, 28.An Eye For Signboards. 29.Think it out. 30 Direction, 31.Plant wonders, 32.Science Fun,
+                       33.Sounds Things make, 34.Classical Dance Forms, 35.Fish facts, 36.Entertainers, 37.Cartons, Books, and Films,
+                       38.Glories of india, 39.Computer world, 40.Cartoon and Film world, 41.Landmarks of the world, 42.Indian Cricketers,
+                       43.Book world, 44.Food of India, 45.I love of India, 46.Prime ministers of India, 47.Brand Names, 48.Animal Habitats,
+                       49.Ferry way, 50.The truth of science, 51.Timeline, 52.Tickle your Brain, 53.Science at the doostep, 54.Our universe, 
+                       55.Signs and Symbols, 56.Saying at right, 57.World sportspersons, 58.First in India.
+                       <h3>Half Yearly</h3>
+                       1.Mumble, jumble, 2.Leaves of plants, 3.Body facts, 4.Guess my Name, 5.Who Am, I, 6.Proverbs,
+                       7.Know your india, 8.Playing Areas, 9.Our leaders, 10.Musical world, 11.Check out things of Home. 12.Number Crunching,
+                       13.Continous, 14.Relatives, 15.Who Am I, 16.Parts of plants, 17.Animal Homes, 18.Our Food, 19.Homes and Building, 
+                       20.Personlities, 21.Language Skills, 22.Language in India, 23.Staes and Capitals, 24.Playtime, 25.Science Time, 26.Rules for strangers,
+                       27.The Olypics, 28.An Eye For Signboards. 29.Think it out.
+                       <h3>Final Yearly</h3>
+                       30 Direction, 31.Plant wonders, 32.Science Fun,
                        33.Sounds Things make, 34.Classical Dance Forms, 35.Fish facts, 36.Entertainers, 37.Cartons, Books, and Films,
                        38.Glories of india, 39.Computer world, 40.Cartoon and Film world, 41.Landmarks of the world, 42.Indian Cricketers,
                        43.Book world, 44.Food of India, 45.I love of India, 46.Prime ministers of India, 47.Brand Names, 48.Animal Habitats,
@@ -482,7 +557,7 @@ function Syallubus() {
                        30.Word Power, 31.Reading Comprehesion, 32.Compositions.
                        <hr/>
                        
-                       <h3>Math</h3>
+                       <h3>Maths</h3>
                        1.More on large Number, 2.Operations on large Numbers, 3.Factors and Multiples, 4. Fractions, 5.Decimals,
                        6.Basic Geometry, 7.Patterns and Symmetry, 8.Metric Measures, 9.Perimeter and Area, 10.Volume and Nets, 
                        11.Time and Temperature, 12.Life Mathematics, 13.Mapping Skills, 14.Data Handling.
@@ -492,12 +567,10 @@ function Syallubus() {
                        3. Factors and Multiples, 4.Fractions,  5.Decimals,
                        6.Basic Geometry, 7.Patterns and Symmetry.
                        <h3>P.T-2</h3>
-
                        8.Metric Measure, 9.Perimeter and Area. 
-                       
                        <h3>Final Exam</h3>
-                       11.Time and Temperature, 12.Life Mathematics, 13.Mapping Skills, 14.Data Handling,
-                       9.Perimeter and Area, 4.Fractions.
+                       10.Volume and nets, 11.Time and Temperature, 12.Life Mathematics, 13.Mapping Skills, 14.Data Handling,
+                       
                        <hr/>
                        <h3>EVS</h3>
                        1.Anusha's Family, 2.Games we play, 3.Our work, 4.From the Farm, 5.The journey of Food, 6.Breathing - In and Out,
@@ -565,12 +638,13 @@ function Syallubus() {
                           16.Triangles, 17.Quadrilaterals, 18.Circles, 19.Three-Dimensions Shapes, 20.Symmetry(Two-Dimension),
                           21. Prrmeterand Area, 22.Data Handling, 23.Pictograph, 24.Bargraph, 25.Activities.
                           <h3>P.T-1</h3>
-                          1.Number System, 2.Factors and Multiples, 3.Whole Numbers, 4.Integers.
+                          1.Number System, 2.Factors and Multiples, 3.Whole Numbers.
                           <h3>Half Yearly</h3>
-                          5.Fractions, 6.Simplifications,
+                          4.Integers, 5.Fractions, 6.Simplifications, 
                           7.Decimals, 8.Algebric Expressions, 9.Linear equations in one valuable, 10.Ratio,Proportion, and Unitary method.
+                          11.Line Segment, Ray and Line, 12.Parallel Lines,
                           <h3>P.T-2</h3>
-                          11.Line Segment, Ray and Line, 12.Parallel Lines, 13.Angles and their Measurement, 14.Construction, 15.Polygons,
+                           13.Angles and their Measurement, 14.Construction, 15.Polygons,
                           16.Triangles.
                           <h3>Final Exam</h3>
                           17.Quadrilaterals, 18.Circles, 19.Three-Dimensions Shapes, 20.Symmetry(Two-Dimension),
@@ -580,12 +654,31 @@ function Syallubus() {
                           1.Singing Grasses and Tarzon vines, 2.Adventures at Sea, 3.Amrita Devi Bishnoz, 4.Lines written in Early Spring,
                           5.Zakir and his Tabla, 6.The Bangle Sellers, 7.A friend in need, 8.The Doll, 9.Into the future, 10.My Computer ate My Homework,
                           11.Faith Repaid, 12.The Snail.
+                          <h3>P.T-1</h3>
+                          1.Singing Grasses and Tarzan vines, 2.Adventure at sea.
+                           <h3>Half Yearly</h3>
+                           3.Amrita Devi Bishnoi A soldier of Nature.
+                           4.Lines written in early Spring. 5.Zakir and His Table. 6.The Bangle Seller.
+                           <h3>P.T-2</h3>
+                           7.A friend in need. 8.The doll.
+                           <h3>Final Exam</h3>
+                           9.Into the future. 10.My computer Ate My Homework. 11.Faith Repaid. 12.The Snail.
                           <h3>English Grammer</h3>
                           1.Nouns, 2.Singular and Plural Nuns, 3.Nouns:Gender, 4.Nouns:case, 5.Articles, 6.Adjectives,
                           7.Adjectives:Degrees of Comparison, 8.Verbs, 9.Auxillary Verbs, 10.Subject & Predicate, 11.The Tense,
                           12.Simple Tenses, 13.Continous Tense, 14.Perfect Tenses, 15.Active and Passive, 16.Sub-verb-Agreement.
                           17.Adverb, 18.Adverbs of Comparison, 19.Personal Pronouns, 20.Types of Pronouns, 21.Prepositions, 
                           22.More on Preposition, 23.Conjunctions.
+                          <h3>P.T-1</h3>
+                          1.Noun.
+                          <h3>Half Yearly</h3>
+                          2.Singular and Plural Noun. 3.Noun : Gender. 5.Articles, 6.Adjectives, 7.Adjective : Degrees of compariosion.
+                          8.Verbs 31.Reading Comprehension, 32.Composition.
+                          <h3>P.T-2</h3>
+                          10.Subject and Predicate, 11.The Tense, 12.Simple Tenses, 13.Continous Tenses, 14.Perfect Tense.
+                          <h3>Final Exam</h3>
+                          21.Preposition, 22.More on preposition, 23.Conjunction 25.Direct and Indirect speech, 26.Punctuation, 30.Synonyms, Antonyms, 31.Reading Comprehension.
+
                           <hr/>
                           <h3>Science</h3>
                           1.Components of Food, 2.Sorting Materials, 3.Sepration of Substance, 4.Getting to know Plants,
@@ -593,21 +686,20 @@ function Syallubus() {
                           7.Motion and Measurement of Distance, 8.Light, Shadows and Reflection, 
                           9.Electricity and circuits (Continue), 10.Fun with Magnets, 11.Air Around US.
                           <h3>P.T-1</h3>
-                          1.Components of Food.
+                          1.Food : Where does it come from ? 2. Component of food.
                           <h3>Half Yearly</h3>
-                          2.Sorting Materials, 4. Getting to know Plants, 3.Sepration of Substance, .Components of Food.
-                          <h3>P.T-II</h3>
-                          5.Body Movements, 9.Electricity and circuits (Continue), 
+                         2.Component of food, 4.Shorting material into Groups, 5.Sepration of Substance, 7.Getting to know plants. 
+                         <h3>P.T-II</h3>
+                          8.Body Movement, 12.Electricity and Circuit.
                           <h3>Final Exam</h3>
-                          6.The Living organisms - Characteristics and Habitats.
-                          8.Light, Shadows and Reflection.  10.Fun with Magnets, 11.Air Around US.
+                          9.The Living organisms - Characteristics and Habitats.
+                          11.Light, Shadows and Reflection.  13.Fun with Magnets, 15.Air Around US.
                           <hr/>
                           <h3>History</h3>
-                          1.What, Where, How and When, 2.From hunting-Gatherring and Growing food, 3.In the earliest cities, 
+                          1.What, Where, How and When, 2.From hunting-Gathering and Growing food, 3.In the earliest cities, 
                           4.What Books and Burials tell us, 5.Kingdoms, Kingsons, on early Republic, 6.New Questioned and Ideas,
                           7.Ashoka, The Emperor, 8.Vital villages, Thriving Towers, 9.Traders, Kings and Pilgrims, 10.New empires and Kingdoms,
-                          11.Buildings, Paintings, and Books.
-                
+                          11.Buildings, Paintings, and Books.                
                           <h3>P.T-1</h3>
                           1.What, Where, How and When, 2.From hunting-Gatherring and Growing food, 3.In the earliest cities.
                           <h3>Half Yearly</h3>
@@ -623,14 +715,14 @@ function Syallubus() {
                           1.Understanding diversity, 2.Diversity and descimination, 3.What is Government, 4.Maps, 5.Major Domains of the earth,
                           6.Major land forms of the earth, 7.Our country, 8.Rural Livelihoods, 9.Urban Livehoods.
                           <h3>P.T-1</h3>
-                          1.Understanding diversity, 2.Diversity and descimination, 3.What is Government.
+                          1.Understanding diversity, 2.Diversity and descimination.
                           <h3>Half Yearly</h3>
-                          4.Maps, 5.Major Domains of the earth,
-                          6.Major land forms of the earth.
+                          5.Major Domains of the earth,
+                          
                           <h3>P.T-2</h3>
-                          7.Our country, 8.Rural Livelihoods.
+                          6.Major land forms of the earth, 7.Our country.
                           <h3>Final Exam</h3>
-                          9.Urban Livehoods.
+                          8.Rural Livelihoods, 9.Urban Livehoods.
                           <hr/>
                           <h3>Geoghraphy</h3>
                           1.The Earth in the Solar System, 2.Globe:Latitudes and Longitudes, 3.Motion of the Earth, 4.Key element of a Democratic Government,
@@ -638,25 +730,20 @@ function Syallubus() {
                           <h3>P.T-1</h3>
                           1.The Earth in the Solar System, 2.Globe:Latitudes and Longitudes, 3.Motion of the Earth.
                           <h3>Half Yearly</h3>
-                          4.Key element of a Democratic Government,
-                          5.Panchayati Raj, 6.Rural Administration.
+                          3.Motion of the Earth, 4.Key element of a Democratic Government.
                           <h3>P.T-2</h3>
-                          7.Urban Administration.
+                          5.Panchayati Raj, 6.Rural Administration,
                           <h3>Final</h3>
-                          8.India:Climates,Vegetation and wildlife.
+                          7.Urban Administration, 8.India:Climates,Vegetation and wildlife.
                           <h3>G.K</h3>
                           1.Animal Words, 2.Sports and Colours, 3.World of comics, 4.Know your Fables, 5.India:Our country, 6.Know your country,
                           7.Who Said so?, 8.Common Names, 9.World Leaders, 10.Mixed Bag, 11.Think it Out.
-                          <h3>P.T-1</h3>
-                          1.Animal Words, 2.Sports and Colours, 3.World of comics, 4.Know your Fables, 5.India:Our country, 6.Know your country,
-                          7.Who Said so?, 8.Common Names, 9.World Leaders, 10.Mixed Bag, 11.Think it Out.
                           <h3>Half Yearly</h3>
-                          Bizzer Game 1 and 2, Ch-12. to 21.
+                          1.Animal Words, 2.Sports and Colours, 3.World of comics, 4.Know your Fables, 5.India:Our country, 6.Know your country,
+                          7.Who Said so?, 8.Common Names, 9.World Leaders, 10.Mixed Bag, 11.Think it Out,
                           Chap-22 to 32.
-                          <h3>P.T-2</h3>
-                          Buzzer Game 3, Chap-33 to 38, Chap- 39-43.
                           <h3>Final Exam</h3>
-                          Buzz Game IV and V
+                          Buzzer Game 3, Chap-33 to 38, Chap- 39-43.
                           Chap-44 to 54.
                           Chap-55 to 66.
                           <hr/>
@@ -688,7 +775,7 @@ function Syallubus() {
                     3.The Triumph, 4.For Athletes, 5.Living Out of a Suitcase,
                     6.To the Skies, 7.A Gift of love, 8.Do it Anyway.
                     <h3>P.T-2</h3>
-                    7.A Gift of love, 8.Do it Anyway, 9.Her laughter said it All, 10.Post cards from Ura.
+                    7.A Gift of love, 9.Her laughter said it All, 10.Post cards from Ura.
                     <h3>Final Exam</h3>
                     10.Post cards from Ura, 11.World Peace,
                     12.Angel Child, Dragon Child, 13.Beautifully Different, Wonderfully Same.
@@ -704,9 +791,9 @@ function Syallubus() {
                     6.Finite and Non-finite verb, 7.Modals, 8.Present Tense,
                     9.Past Tense, 10.Future Tense, 11.Subject-Verb Agreement, 12.Adverb, 13.Pronouns.
                     <h3>P.T-2</h3>
-                    14.Prepositions, 15.Conjunction, 16.Phrases, 17.Clauses.
+                    14.Prepositions, 15.Conjunction, 16.Phrases, 8.Present Tense, 9.Past Tense, 10.Future Tense, 17.Clauses.
                     <h3>Final Exam</h3>
-                    18.Senetnce and its Kinds, 19.Phrasal Verbs, 20.Active and Passive voice, 21.Direct and Indirect Speech, 22.Punctuation,
+                     17.Clause, 18.Senetnce and its Kinds, 19.Phrasal Verbs, 20.Active and Passive voice, 21.Direct and Indirect Speech, 22.Punctuation,
                     23.Word Power, 24.Reading Comparehension, 25.Composiition.
                     <hr/>
                     <h3>Computer</h3>
@@ -763,7 +850,7 @@ function Syallubus() {
                      7.Linear Equations in one variable, 8.Ratio and Proportion, 9.Unitary Method, 10.Percentage, 11.Profit and Loss,
                      12.Simple Interest.
                       <h3>P.T-2</h3>
-                      13.Lines and Angles, 14.Properties of Parallel Lines, 15.Properties of Triagles.
+                      13.Lines and Angles, 14.Properties of Parallel Lines, 15.Properties of Triangles.
                       <h3>Final Exam</h3>
                       15.Properties of Triagles, 
                      16.Congruence, 17.Construction, 18.Reflection and Rotational Symmetery, 19.Three Diamension Shape,
@@ -777,12 +864,12 @@ function Syallubus() {
                      <h3>P.T-1</h3>
                      1.Nutrition in plants, 4.Heat.
                      <h3>Half Yearly</h3>
-                     2.Nutrition in Animals, 5.Physical and Chemical Changes,  4.Acids, Bases, and Salts, 9.Motion and Time. 
+                     5.Acids, Bases, and Salts, 6.Physical and Chemical Change, 13.Motion and Time.  2.Nutiation in Animals.
                      <h3>P.T-2</h3>
-                     6.Respiration in Organisms, 10.Electric Current and its Effects. 
+                     10.Respiration in Organisms, 14.Electric Current and its Effects. 
                      <h3>Final Exam</h3>
-                     8.Reproduction in plants, 15.Light, 12.Forests: Our Lifeline,
-                     13.Wastewater Story,   11.Transportation in Animals and Plants
+                     12.Reproduction in plants, 15.Light, 17.Forests: Our Lifeline,
+                     13.Waste water Story,   11.Transportation in Animals and Plants
                      <hr/>
                      <h3>History</h3>
                      1.Tracing Changes, 2.New Kings and Kingdoms, 3.The Delhi Saltans, 4.The Mughals Empire, 5.Rulers And Buildings, 6.Towns, Traders And Craftspersons,
@@ -795,19 +882,19 @@ function Syallubus() {
                      <h3>P.T-2</h3>
                      6.Towns, Traders And Craftspersons.
                      <h3>Final Exam</h3>
-                     .Tribes Nomads And Settled Communities, 8.Devotional Paths To the Divine, 9.The Making of Regional Cultures,
+                     7.Tribes Nomads And Settled Communities, 8.Devotional Paths To the Divine, 9.The Making of Regional Cultures,
                      10.Eighteen - Century Pollitical formations.
                      <hr/>
                      <h3>Geoghraphy</h3>   
                      1.Environment, 2.Inside our Earth, 3.Our Changing Earth, 4.Earth, 6.Natural Vegetation and Wildlife, 7.Human Environment Settlement,
                      7.Transport and Communication, 8.Human Environment Interaction, 9.The Tropical and Subtropical Region, 9.Life in the Deserts.
                      <h3>P.T-1</h3>
-                     1.Environment, 
+                     1.Environment.
                      <h3>Half Yearly</h3>
                      3.Our Changing Earth, 2.Inside our Earth.
-                     Air
+                    5.Air
                      <h3>P.T-2</h3>
-                     Natural Vegetation and Wildlife.
+                     6.Natural Vegetation and Wildlife.
                      <h3>Final Exam</h3>
                      7.Transport and Communication, 8.Human Environment Interaction, 9.The Tropical and Subtropical Region, 9.Life in the Deserts.
                      <hr/>
@@ -832,7 +919,7 @@ function Syallubus() {
                 <Accordion.Item eventKey='10'>
                     <Accordion.Header>Class VIII Syallubus</Accordion.Header>
                     <Accordion.Body>
-                    <h3>English Trasure</h3>
+                    <h3>English Treasure</h3>
                     1.The winner's Cup, 2.The Road Not Taken, 3.The New School, 4.Pip Overcomes His fears, 5.Where the Mind Is without fear,
                     6.The Grand Trout, 7.My Nose, 8.The Mysterious Letters, 9.The Listerners, 10.On Social Networking, 11.The Real Gamem 12.Taking Fight, 13.Because I'm a girl.
                     <h3>P.T-1</h3>
@@ -843,7 +930,7 @@ function Syallubus() {
                     <h3>P.T-2</h3>
                     8.The Mysterious Letters, 9.The Listerners, 10.On Social Networking.
                     <h3>Final Exam</h3>
-                    11.The Real Gamem 12.Taking Fight, 13.Because I'm a girl.
+                    11.The Real Game 12.Taking Fight, 13.Because I'm a girl.
                     <hr/>
                     <h3>Grammer Way</h3>
                     1.Parts of Speech, 2.Word formation, 3.Determiners, 4.Adjectives of Comparision and order of Adjectives, 5.The Present Tense,
@@ -858,29 +945,29 @@ function Syallubus() {
                     8.Modals, 9.Conditional Sentence, 10.Infinitives, 11.Grounds, 12.Particles, 13.Subject-Verb Agreement,
                     14.Adverbs, 15.Preposition.
                     <h3>P.T-2</h3>
-                    16.Types of Conjunction, 17.Phrases and Clsuses, 18.Restrictive and Non-restrictive clauses,
-                    19.Simple, Complex and Compund Senetences, 20.Transformation of Sentences, 21.Active and Passive voice.
+                    16.Types of Conjunction, 17.Phrases and Clauses, 18.Restrictive and Non-restrictive clauses,
+                    19.Simple, Complex and Compund Sentences, 20.Transformation of Sentences, 21.Active and Passive voice.
                     <h3>Final Exam</h3>
                     22.Direct and Indirect Speech,
-                    23.Punctuation, 24.Words likely to be confused, 25.Word power, 26.Reading Comprehension, 27.Composiition.
+                    23.Punctuation, 24.Words likely to be confused, 25.Word power, 26.Reading Comprehension, 27.Composition.
                    <hr className='color-red'/>
                     <h3>Mathematics</h3>
                     1.Rational Numbers, 2.Components, 3.Squares and Square Roots, 4.Cubes and Cube Roots, 5.Playing with Numbers, 6.Operations on Algebric Expression, 
                     7.Factorisation, 8.Linear Equations, 9.Percentage, 10.Profit and Loss, 11.Compound Interest, 12.Direct and Inverse Proportions, 13.Time and Work, 
                     14.Polygons, 15.Quadrilaterals, 16.Paralellograms, 17.Area of a Trapezium and a Polygon, 18.Three - Dimension
                     Figures. 20.Volume and Surface Area of Solids, 21.Data Handling, 22.Introduction, to Co-ordinate Geometery, 23.Line graphs and Linear Graphs, 24.Pie 
-                    Charts, Probability.
-                    
+                    Charts, Probability.         
                     <h3>P.T-1</h3>
-                    1.Rational Numbers, 2.Components, 3.Squares and Square Roots, 4.Cubes and Cube Roots.
+                    1.Rational Numbers, 2.Exponents, 3.Squares and Square Roots, 4.Cubes and Cube Roots.
                     <h3>Half Yealry</h3>
                     5.Playing with Numbers, 6.Operations on Algebric Expression, 
                     7.Factorisation, 8.Linear Equations, 9.Percentage, 10.Profit and Loss, 11.Compound Interest, 12.Direct and Inverse Proportions, 13.Time and Work.
                     <h3>P.T-2</h3>
                     14.Polygons, 15.Quadrilaterals, 16.Paralellograms.
                     <h3>Final Exam</h3>
-                    18.Three - Dimension
-                    Figures. 20.Volume and Surface Area of Solids, 21.Data Handling, 22.Introduction, to Co-ordinate Geometery, 23.Line graphs and Linear Graphs, 24.Pie 
+                    18.Area of a Trapezium and a polygons.
+                    19.Three Dimensional figures. 20.Volume and Surface Area of Solids, 
+                    21.Data Handling, 22.Introduction, to Co-ordinate Geometery, 23.Line graphs and Linear Graphs, 24.Pie 
                     Charts, 25.Probability.
                     <hr/>
                     <h3>Science</h3> 
@@ -889,14 +976,14 @@ function Syallubus() {
                     7.Reaching the age of adolescence, 8.Force and Pressure 9.Friction 10.Sound, 
                     11.Chemical Effect and Electric Current 12.Some Natural Phenomena, 13.Light.
                     <h3>P.T-1</h3>
-                    1.Crop Production and Management, 8.Force and Pressure.
+                    1.Crop Production and Management, 11.Force and Pressure.
                     <h3>Half Yearly</h3>
-                    2.Microorganisms: Friend and Foe, 3.Coal and Petroleum, 4.Combustion and Flame,  9.Friction, 10.Sound.                 <h3>P.T-2</h3>
+                    2.Micro-organisms: Friend and Foe, 5.Coal and Petroleum, 6.Combustion and Flame,  12.Friction, 13.Sound.                 <h3>P.T-2</h3>
                     <h3>P.T-2</h3>
-                    5.Conservation of Plants and Animals, 11.Chemical Effect and Electric Current
+                    7.Conservation of Plants and Animals, 14.Chemical Effect and Electric Current
                     <h3>Final Exam</h3>
                     6.Reproduction in Animals, 
-                    7.Reaching the age of adolescence, 13.Light, 12.Some Natural Phenomena.
+                    7.Reaching the age of adolescence, 13.Light, 12.Some Natural Resource.
                     <hr/>
                     <h3>History</h3>
                     1.Introduction - How, When and Where, 2.From Trade to Territory, 3.Ruling the country side, 4.Tribals, Dikus and the vision of a Golden Age,
@@ -904,11 +991,14 @@ function Syallubus() {
                     <h3>P.T-1</h3>
                     1.Introduction - How, When and Where.
                     <h3>Half Yearly</h3>
-                    2.From Trade to Territory.
+                    2.From Trade to Territory, The company Establishes Power.
+                    3.Ruling the country side.
+                    4.Tribals, Dikus, and the vision of a Golden Age.                    
                     <h3>P.T-2</h3>
                     5.When People Rebel.
                     <h3>Final Exam</h3>
-                    7.Women, Caste and Reform, 8.The making of the National Movement - 1870s-1947s.
+                    7.Women, Caste and Reform,  6.Civilising the "Native", Educating the Nation.
+                    8.The making of the National Movement - 1870s-1947s.
                     <hr/>
                     <h3>Civics</h3>
                     1.The Indian Constitution, 2.Understanding Secularism, 3.Parliament and the making of laws, 4.Judiciary, 5.Understanding Margination, 6.Confronting Mariginalisation,
@@ -957,10 +1047,10 @@ function Syallubus() {
                     66.Padma Awards 2022.
                     <hr/>
                     <h3>Computer</h3>
-                    1.Windows Movie Makes, 2.Flash CS4, 3.QBASIC, 4.Visual Basic, 5.Database, 6.Microsoft Access, 7.Photoshop CS5,
+                    1.Windows Movie Maker, 2.Flash CS4, 3.QBASIC, 4.Visual Basic, 5.Database, 6.Microsoft Access, 7.Photoshop CS5,
                     8.Internet and E-Commerce, 9.How Printers and Scanners work, 10.Cyber law and Ethics, 11.Mobile Computing.
                     <h3>Half Yearly</h3>
-                    1.Windows Movie Makes, 2.Flash CS4, 3.QBASIC, 4.Visual Basic, 5.Database, 6.Microsoft Access.
+                    1.Windows Movie Maker, 2.Flash CS4, 3.QBASIC, 4.Visual Basic, 5.Database, 6.Microsoft Access.
                     <h3>Final Exam</h3>
                     7.Photoshop CS5,
                     8.Internet and E-Commerce, 9.How Printers and Scanners work, 10.Cyber law and Ethics, 11.Mobile Computing.
