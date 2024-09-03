@@ -13,6 +13,15 @@ import SportCourseImg from '../../utils/images/sport-course.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import Accordion from 'react-bootstrap/Accordion';
 
+   
+   const hindi = [
+    {
+        id:1,
+        title:1,
+        url: 1
+    }
+   ]
+
 // const courses = [
 //     {
 //         id: 1,
@@ -65,6 +74,13 @@ import Accordion from 'react-bootstrap/Accordion';
 // ];
 
 function Syallubus() {
+    const handleDownload = (url) => {
+        if (url) {
+          window.location.href = url;
+        } else {
+          alert('Document not available for download');
+        }
+      };
   return (
     <div className='courses-page'>
         <header className='height-75'>
@@ -161,6 +177,51 @@ function Syallubus() {
                     13. After A Bath. 
                     14. Chubby cheeks.
                     15. Humpty Dumpty.
+                    <h3>Hindi</h3>
+                    <h3>मेरी पहली पुस्तक ( अक्षर लेखन)</h3>
+                    <h3>P.T-1</h3>
+                     अ से अ: तक,
+                     बिन्दुओं को मिलाइए,
+                     अक्षर को उचित चित्र से मिलाइए
+                     <h3>Half Yearly</h3>
+                     क से न तक,
+                     अक्षर को उचित चित्र से मिलाइए,
+                     अ से अ: तक,
+                     <h3>P.T-2</h3>
+                     प से श्र तक,
+                     अक्षर को उचित चित्र से मिलाइए
+                     <h3>Final Exam</h3>
+                      क से ज्ञ तक,
+                      अक्षर को उचित चित्र से मिलाइए,
+                      चित्र देखकर उचित अक्षर पूर गोल (0) घेरा लगाइए,  रिक्त स्थानों की पूर्ति कीजिए.
+                      <h3>मेरी पहली पुस्तक (क ख, ग)</h3>
+                      <h3>P.T-1</h3>
+                      Pg.no. 2 - 11 अ से अ; तक ,
+                      <h3>Half Yearly</h3>
+                      चित्रों को देखकर उसके नाम के पहले अक्षरों पर गोला (०) लगाइए। <br/> चित्रों को उसके नाम से मिलाइए। क से झ तक
+                      <h3>P.T-2</h3>
+                      नीचे दिए गए चित्रों से संबंधित अक्षरों पर गोला (0) लगाइए चित्रों को पहचानकर शब्द पूरा कीजिए 'त' 'द से श्र तथा 'ब' से बने शब्दों पर गोला (0) लगाइ
+                      <h3>Final Exam</h3>
+                      प से श्र तथा  चित्रों को पहचानकर सही अक्षरों के आगे चित्रों को लगाइए - ,
+                      पहचानकर सही अक्षरों पर गोला (0) लगाइए,  चित्रों की सहायता से शब्दों को उचित क्रम में लगाकर 
+                      लिखिए - 
+                      <h3>फुहार बाल कविताएँ</h3>
+                      <h3>Half Yearly</h3>
+                      1.भारत की शान, 2.यह भारत देश हमारा, 
+                      3.मोर,
+                      4.तितली,
+                      5.लाल पीली मोटर,
+                      6.बीच सड़क पर कभी न जाओ 
+                      7.आलू कचालू बेटा कहाँ गए थे,
+                    <h3>Final Exam</h3>
+                      8.बिल्ली के बच्चे,
+                      9.बंदर माया,
+                      10.काला बंदर,
+                      11.नन्हा मुन्ना
+                      12.गुड़िया रा,
+                      13.बादल राजा,
+                      14.पानी बरसा छ्म - छ्म - छ्म.
+                      15.चंदा मामा
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
@@ -186,6 +247,27 @@ function Syallubus() {
                         39-47. What come after.
                         <h3>Final Exam</h3>
                         48-55 What come before, 56-61.What come in between. 62-69.Addition/Subsraction.
+                        <h3>Hindi</h3>
+                        <h3>Half Yearly</h3>
+                        3-9 अभ्यास,
+                        10-15 अभ्यास,
+                        16-21 दो अक्षरों वाले शब्दों का अभ्यास,
+                        22-27 दो अक्षरों वाले शब्दों का अभ्यास,
+                        28-39 दो अक्षरों वाले शब्दों का अभ्यास,
+                        <h3>Final Exam</h3>
+                        40-46 तीन अक्षरों वाले शब्दों का अभ्यास,
+                        47-52 चार अक्षरों वाले शब्दों का अभ्यास,
+                        53-64 चार अक्षरों वाले शब्दों का अभ्यास,
+                        <h3>Hindi-2</h3>
+                        <h3>Half Yearly</h3>
+                        03-06 रेखाओं का अभ्यास,
+                        07-14 अ से अनार से अः तक,
+                        15-23 क से कबूतर ज् से ज्ञानी तक,
+                        32-39 दो अक्षर वाले शब्द
+                        <h3>Final Exam</h3>
+                        40-47 तीन अक्षर वाले शब्द,
+                        48-56 चार अक्षर वाले शब्द,
+                        55-64 वाक्य बनाना
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3'>
@@ -266,6 +348,8 @@ function Syallubus() {
                        11.In the Circus, 12.My Self, 13.Picnic Time, 14.Opposite words, 15.Poem, My Mother Laand, 16.Question Time, 
                        17.Our National Friends, 18.Means of Transparent, 19.Our Senses. 20.Word Jumple, 21.Sory Time, 
                        22.Our Helpers.
+                       <h3>Hindi</h3>
+                        9-12. 
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='4'>
@@ -323,6 +407,31 @@ function Syallubus() {
                        <h3>Final Exam</h3>
                        12.Means of Communication,
                        13.The Air we Bradth, 14.We Need Clean Water, 15.The Sky and Seasons, 16.Directions.
+                       <h3>Hindi Grammer</h3>
+                       <h3>P.T-1</h3>
+                       1.भाषा, 2.वर्ण एवं वर्णमाता, 3.मात्राएँ
+                       
+                       <h3>Half Yearly</h3>
+                       4.शब्द और वाक्य, 5.संज्ञा, 6.लिंग, 7.वचन, 8.सर्वनाम, 9.विशेषण,
+                       <h3>P.T-2</h3>
+                        10.क्रिया, 11.पर्यायवाची शब्द, 12.विलोम शब्द.
+                        <h3>Final Exam</h3>
+                        13.अनेक शब्दों के लिए एक शब्द, 14.दिन, महीने और गिनती, 15.चित्र-वर्णन, 16.अनुच्छेद- लेखन, 
+                        17.कहानी - लेखन.
+                        <h3>Hindi (Text Book)</h3>
+                        <h3>P.T-1</h3>
+                        1.अच्छे अच्छे काम करो , 
+                        2.बतवान भीम,
+                        <h3>Half Yearly</h3>
+                        3.रबड़ - उपयोगी पदार्थ, 4.बादा : राष्ट्रीय पशु, 5.चिड़िया, 6.मकड़ी से सीख, 7.चिड़ियाघर की सैर, 8.बेईमानी की सजा
+                        9.सर्दी आई,
+                        <h3>P.T-2</h3>
+                        10.एकता में बल है, 
+                        11.पेड़ ने कहा,
+                        12.चतुर गीदड,
+                        <h3>Final Exam</h3>
+                        13.हमारे' त्योहार, 14.गुलामी अच्छी नहीं, 15.ऐसे थे अपने गांधी जी , 16.शेर की मूर्खता,
+                        17.रेल का खेल, 18.संतोष धन, 19.अपना' तिरंगा. 
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='5'>
@@ -1059,8 +1168,40 @@ function Syallubus() {
                 
           </Accordion>
         </div>
+
+        <div className='container my-5'>
+        <h2 className='text-center mb-5'>B: DOCUMENTS AND INFORMATION</h2>
+        <table className='table table-striped'>
+          <thead>
+            <tr>
+              <th>SL NO.</th>
+              <th>Class</th>
+              <th>DOWNLOAD DOCUMENT</th>
+            </tr>
+          </thead>
+          <tbody>
+            {hindi.map((doc) => (
+              <tr key={doc.id}>
+                <td>{doc.id}</td>
+                <td>{doc.name}</td>
+                <td>
+                  {doc.url ? (
+                    <button onClick={() => handleDownload(doc.url)} className='btn btn-primary'>
+                      Download
+                    </button>
+                  ) : (
+                    <span className='text-muted'>Not available</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
+
+
 
 export default Syallubus;
