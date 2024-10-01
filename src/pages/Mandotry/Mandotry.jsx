@@ -182,11 +182,11 @@ const documents = [
     name: 'COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
     url: document6,
   },
-  {
-   id: 7,
-   name : 'COPY OF BUILDING NOC  CERTIFICATE',
-   url: document10,
-  },
+  // {
+  //  id: 7,
+  //  name : 'COPY OF BUILDING NOC  CERTIFICATE',
+  //  url: document10,
+  // },
   {
     id: 8,
     name: 'AFFIDAVIT - NON PROPRIETARY CHARACTER OF SOCIETY',
@@ -197,11 +197,11 @@ const documents = [
     name: 'COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES',
     url: document8,
   },
-  {
-    id: 10,
-    name: 'COPY OF LAND CERTIFICATE',
-    url: document9,
-  },
+  // {
+  //   id: 10,
+  //   name: 'COPY OF LAND CERTIFICATE',
+  //   url: document9,
+  // },
   {
     id: 11,
     name: '3 YEARS AUDIT REPORT',
@@ -217,11 +217,11 @@ const documents = [
     name: 'ROOM DETAILS AFFIDAVIT',
     url: document13,
   },
-  {
-    id:14,
-    name: 'LAND LEASE DEED',
-    url: document14,
-  }
+  // {
+  //   id:14,
+  //   name: 'LAND LEASE DEED',
+  //   url: document14,
+  // }
 
 
 
