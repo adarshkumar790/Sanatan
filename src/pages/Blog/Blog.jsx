@@ -85,7 +85,7 @@ const blogs = [
      {
         id: 1,
         img: [yoga1],
-        title: 'International Day of Yoga',
+        title: 'International  Yoga Day 2025',
         // description: 'Outshining in the creative skill and team work bring laurels to the school',
     },
     {
