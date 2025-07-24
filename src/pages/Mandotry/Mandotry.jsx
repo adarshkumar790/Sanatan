@@ -21,17 +21,17 @@ import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
 // import BiologyLab from '../../utils/images/BiologyLab.jpeg';
 import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
-import document2 from '../../utils/images/SocietyCertificate.pdf';
-import document3 from '../../utils/images/NOCJAMUARY.pdf';
-import document4 from '../../utils/images/Recognition.pdf';
+import Rishikulsociety from '../../utils/images/rishikulsociety.pdf';
+import Noc from '../../utils/images/NOC.pdf';
+import Recognition from '../../utils/images/Recognition.pdf';
 // import document5 from '../../utils/images/FireSafety.pdf';
-import document5 from '../../utils/images/Fire Safety.pdf' 
-import document6 from '../../utils/images/Bldg CBSE.pdf';
+import firesafety from '../../utils/images/firesafety.pdf' 
+import buildingsafetycerficate from '../../utils/images/buildingsafetycerficate.pdf';
 import document7 from '../../utils/images/nonpriopertycertificate.pdf';
-import document8 from '../../utils/images/WaterJamuary.pdf';
+import water from '../../utils/images/water.pdf';
 import document9 from '../../utils/images/Lands.pdf';
 import document10 from '../../utils/images/Bldg Safety NOC.pdf'
-import document12 from '../../utils/images/Self certification.pdf'
+import Selfcertificate from '../../utils/images/selfcertificate.pdf'
 import document13 from '../../utils/images/Rooms.pdf'
 import document14 from '../../utils/images/deed.pdf'
 import result from '../../utils/images/Fees.pdf'
@@ -160,27 +160,27 @@ const documents = [
   {
     id: 2,
     name: 'COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE',
-    url: document2,
+    url: Rishikulsociety,
   },
   {
     id: 3,
     name: 'COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT',
-    url: document3,
+    url: Noc,
   },
   {
     id: 4,
     name: 'COPY OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2019, AND ITS RENEWAL',
-    url: document4,
+    url: Recognition,
   },
   {
     id: 5,
     name: 'COPY OF VALID FIRE SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    url: document5,
+    url: firesafety,
   },
   {
     id: 6,
     name: 'COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    url: document6,
+    url: buildingsafetycerficate,
   },
   // {
   //  id: 7,
@@ -195,7 +195,7 @@ const documents = [
   {
     id: 9,
     name: 'COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES',
-    url: document8,
+    url: water,
   },
   // {
   //   id: 10,
@@ -210,7 +210,7 @@ const documents = [
   {
     id:12,
     name: 'SELF CERTIFICATION',
-    url: document12,
+    url: Selfcertificate,
   },
   {
     id:13,
