@@ -34,13 +34,17 @@ import document10 from '../../utils/images/Bldg Safety NOC.pdf'
 import Selfcertificate from '../../utils/images/selfcertificate.pdf'
 import document13 from '../../utils/images/Rooms.pdf'
 import document14 from '../../utils/images/deed.pdf'
-import result from '../../utils/images/Fees.pdf'
+import FeeDetails from '../../utils/images/FeeDetails.pdf'
 import result5 from '../../utils/images/Strength.pdf'
 import result3 from '../../utils/images/SMCJamuary.pdf'
-import result2 from '../../utils/images/Calender.pdf'
+import AnualCalender from '../../utils/images/AnualCalender.pdf'
+import AcademicCalender from '../../utils/images/AcademicCalendar.pdf'
+import ClassStrength from "../../utils/images/ClassStrength.pdf"
 import result4 from '../../utils/images/TeacherList.pdf'
 import result6 from '../../utils/images/NonTeacherList.pdf'
-import result7 from '../../utils/images/Parrent Teachers.pdf'
+import PTA from '../../utils/images/PTA.pdf'
+import AffiDavit from '../../utils/images/AffiDavit.pdf'
+import RoomAffiDavit from '../../utils/images/RoomAffiDavit.pdf'
 
 import document11 from '../../utils/images/3yrsAudit.pdf'
 
@@ -190,7 +194,7 @@ const documents = [
   {
     id: 8,
     name: 'AFFIDAVIT - NON PROPRIETARY CHARACTER OF SOCIETY',
-    url: document7,
+    url: AffiDavit,
   },
   {
     id: 9,
@@ -215,7 +219,7 @@ const documents = [
   {
     id:13,
     name: 'ROOM DETAILS AFFIDAVIT',
-    url: document13,
+    url: RoomAffiDavit,
   },
   // {
   //   id:14,
@@ -232,12 +236,12 @@ const results = [
     {
       id: 1,
       name: 'FEE STRUCTURE OF THE SCHOOL',
-      url: result,
+      url: FeeDetails,
     },
     {
       id: 2,
       name: 'ANNUAL ACADEMIC CALANDER,',
-      url: result2,
+      url: AnualCalender,
     },
     {
       id: 3,
@@ -263,10 +267,18 @@ const results = [
     {
       id:7,
       name: 'PARENT TEACHER',
-      url: result7,
+      url: PTA,
+    },
+    {
+      id:8,
+      name: 'ACADEMIC CALENDER',
+      url: AcademicCalender,
+    },
+    {
+      id:9,
+      name: 'CLASS STRENGTH',
+      url: ClassStrength,
     }
-    
-    
   ];
 
 
