@@ -21,6 +21,7 @@ import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
 // import BiologyLab from '../../utils/images/BiologyLab.jpeg';
 import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
+
 import Rishikulsociety from '../../utils/images/rishikulsociety.pdf';
 import Noc from '../../utils/images/NOC.pdf';
 import Recognition from '../../utils/images/Recognition.pdf';
@@ -45,6 +46,11 @@ import result6 from '../../utils/images/NonTeacherList.pdf'
 import PTA from '../../utils/images/PTA.pdf'
 import AffiDavit from '../../utils/images/AffiDavit.pdf'
 import RoomAffiDavit from '../../utils/images/RoomAffiDavit.pdf'
+import SexualHarassment from '../../utils/images/Sexual Harrassment Committee.pdf'
+import TeacherList from '../../utils/images/TeacherList.pdf'
+import SalaryNonTeaching from '../../utils/images/Salary of Non-Teaching Staff.pdf'
+// import Drinkwater from '../../utils/images/DrinkingWater.pdf'
+
 
 import document11 from '../../utils/images/3yrsAudit.pdf'
 
@@ -233,6 +239,11 @@ const documents = [
 
 
 const results = [
+  {
+    id: 0,
+    name: 'SEXUAL HARASSMENT', 
+    url: SexualHarassment,
+  },
     {
       id: 1,
       name: 'FEE STRUCTURE OF THE SCHOOL',
@@ -251,13 +262,12 @@ const results = [
     {
       id: 4,
       name: 'TEACHER LIST',
-      url: result4,
+      url: TeacherList,
     },
     {
       id: 5,
       name: 'NON TEACHING STAFF',
-      url: result6
-
+      url: SalaryNonTeaching,
     },
     {
       id: 6,
@@ -278,6 +288,11 @@ const results = [
       id:9,
       name: 'CLASS STRENGTH',
       url: ClassStrength,
+    },
+    {
+      id:10,
+      name: 'TEACHER SALARY',
+      url: TeacherList,
     }
   ];
 
