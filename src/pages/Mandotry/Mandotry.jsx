@@ -2,542 +2,210 @@ import React from 'react';
 import './Mandotry.css';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import AboutUsSectionImg from '../../utils/images/Sanatan.jpeg';
-import ChooseSection from '../../components/ChooseSection/ChooseSection';
-import document1 from '../../utils/images/doc1.pdf';
-// import  Bathroom from '../../utils/images/Bathroom.jpeg';
-import  ClassRoom from '../../utils/images/Classroom.jpeg';
-import  Library from '../../utils/images/library.jpeg';
+
+// Images
+import ClassRoom from '../../utils/images/Classroom.jpeg';
+import Library from '../../utils/images/library.jpeg';
 import Staff from '../../utils/images/Staff.jpeg';
 import BoysBathroom from '../../utils/images/Boy.jpeg';
-// import  PlayGround from '../../utils/images/PlayGround.jpeg';
-import  Transport from '../../utils/images/Bus.jpeg';
 import GirlsBathroom from '../../utils/images/Girls.jpeg';
-// import  Water from '../../utils/images/Water.jpeg';
-// import Sport from '../../utils/images/Sport.jpeg';
-// import Canteen from '../../utils/images/Canteen.jpeg';
-import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
-// import ComputerLab from '../../utils/images/ComputerLab.jpeg'; 
-// import BiologyLab from '../../utils/images/BiologyLab.jpeg';
+import ChemistryLab from '../../utils/images/Chemistry.jpg';
 import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
+import Transport from '../../utils/images/Bus.jpeg';
 
+// Documents
 import Rishikulsociety from '../../utils/images/rishikulsociety.pdf';
 import Noc from '../../utils/images/NOC.pdf';
 import Recognition from '../../utils/images/Recognition.pdf';
-// import document5 from '../../utils/images/FireSafety.pdf';
-import firesafety from '../../utils/images/firesafety.pdf' 
+import firesafety from '../../utils/images/firesafety.pdf';
 import buildingsafetycerficate from '../../utils/images/buildingsafetycerficate.pdf';
-import document7 from '../../utils/images/nonpriopertycertificate.pdf';
 import water from '../../utils/images/water.pdf';
-import document9 from '../../utils/images/Lands.pdf';
-import document10 from '../../utils/images/Bldg Safety NOC.pdf'
-import Selfcertificate from '../../utils/images/selfcertificate.pdf'
-import document13 from '../../utils/images/Rooms.pdf'
-import document14 from '../../utils/images/deed.pdf'
-import FeeDetails from '../../utils/images/FeeDetails.pdf'
-import result5 from '../../utils/images/Strength.pdf'
-import result3 from '../../utils/images/SMCJamuary.pdf'
-import AnualCalender from '../../utils/images/AnualCalender.pdf'
-import AcademicCalender from '../../utils/images/AcademicCalendar.pdf'
-import ClassStrength from "../../utils/images/ClassStrength.pdf"
-import result4 from '../../utils/images/TeacherList.pdf'
-import result6 from '../../utils/images/NonTeacherList.pdf'
-import PTA from '../../utils/images/PTA.pdf'
-import AffiDavit from '../../utils/images/AffiDavit.pdf'
-import RoomAffiDavit from '../../utils/images/RoomAffiDavit.pdf'
-import SexualHarassment from '../../utils/images/Sexual Harrassment Committee.pdf'
-import TeacherList from '../../utils/images/TeacherList.pdf'
-import SalaryNonTeaching from '../../utils/images/Salary of Non-Teaching Staff.pdf'
-// import Drinkwater from '../../utils/images/DrinkingWater.pdf'
+import Selfcertificate from '../../utils/images/selfcertificate.pdf';
+import RoomAffiDavit from '../../utils/images/RoomAffiDavit.pdf';
+import DrinkingWater from '../../utils/images/DrinkingWater.pdf';
+import TestReportWater from '../../utils/images/TestReportWater.pdf';
+import document11 from '../../utils/images/Audit.pdf';
+import AffiDavit from '../../utils/images/AffiDavit.pdf';
 
-
-import document11 from '../../utils/images/3yrsAudit.pdf'
+// Results
+import FeeDetails from '../../utils/images/FeeDetails.pdf';
+import result3 from '../../utils/images/SMCJamuary.pdf';
+import result5 from '../../utils/images/Strength.pdf';
+import result4 from '../../utils/images/TeacherList.pdf';
+import result6 from '../../utils/images/NonTeacherList.pdf';
+import PTA from '../../utils/images/PTA.pdf';
+import AnualCalender from '../../utils/images/AnualCalender.pdf';
+import AcademicCalender from '../../utils/images/AcademicCalendar.pdf';
+import ClassStrength from "../../utils/images/ClassStrength.pdf";
+import SexualHarassment from '../../utils/images/Sexual Harrassment Committee.pdf';
+import SalaryNonTeaching from '../../utils/images/Salary of Non-Teaching Staff.pdf';
+import Audit from '../../utils/images/Audit.pdf';
 
 const school = [
-          
-          {
-            id: 1,
-            img: [Staff],
-            title: 'Staff Room',
-          },
-          {
-            id: 2,
-            img: [ClassRoom],
-            title: 'Class Room',
-          },
-          {
-            id: 3,
-            img: [Water],
-            title: 'water',
-          },
-          {
-            id: 4,
-            img: [Library],
-            title: 'Library',
-          },
-          {
-           id: 5,
-           img: [GirlsBathroom],
-           title: 'Girls Bathroom',
-          },
-          {
-            id:6,
-            img: [BoysBathroom],
-            title: 'Boys Bathroom',
-          },
-          {
-            id: 7,
-            img: [PlayGround],
-            title: 'Playground',
-          },
-          // {
-          //   id: 8,
-          //   // img: [Sport],
-          //   title: 'Sports',
-          // },
-          {
-            id: 9,
-            img: [Transport],
-            title: 'Transport',
-          },
-          // {
-          //   id: 10,
-          //   // img: [Canteen],
-          //   title: 'Canteen',
-          // },
-          {
-            id: 11,
-            img: [ChemistryLab],
-            title: 'Chemistry & Physics Lab',
-          }, 
-          // {
-          //   id: 12,
-          //   // img: [ComputerLab],
-          //   title: 'Computer Lab',
-          // },
-          // {
-          //   id: 13,
-          //   // img: [BiologyLab],
-          //   title: 'Biology Lab',
-          // }
-     ]
-
-const information = [
-    {
-      id: 1,
-      title: 'NAME OF SCHOOL',
-      description: 'SANATAN VIDYA NIKETAN',
-    },
-    {
-      id: 2,
-      title: 'AFFILIATION NO. (IF APPLICABLE)',
-      description: 'N/A',
-    },
-    {
-      id: 3,
-      title: 'SCHOOL CODE (IF APPLICABLE)',
-      description: 'N/A',
-    },
-    {
-        id: 4,
-        title: 'COMPLETE ADDRESS WITH PIN CODE',
-        description: 'Sanatan Road, Jamuary, Kanke, Ranchi, Jharkhand - 834 006',
-    },
-    {
-        id: 5,
-        title: 'PRINCIPAL NAME & QUALIFICATION',
-        description: '',
-    },
-    {
-        id: 6,
-        title: 'SCHOOL EMAIL ID',
-        description: 'sanatanvidyan@gmail.com',
-    },
-   
-    {
-        id: 7,
-        title: 'CONTACT DETAILS (LANDLINE/MOBILE)',
-        description: '',
-    },
-]
-const documents = [
-  {
-    id: 1,
-    name: 'COPIES OF AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF AFFILIATION',
-    // url: document1,
-  },
-  {
-    id: 2,
-    name: 'COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE',
-    url: Rishikulsociety,
-  },
-  {
-    id: 3,
-    name: 'COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT',
-    url: Noc,
-  },
-  {
-    id: 4,
-    name: 'COPY OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2019, AND ITS RENEWAL',
-    url: Recognition,
-  },
-  {
-    id: 5,
-    name: 'COPY OF VALID FIRE SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    url: firesafety,
-  },
-  {
-    id: 6,
-    name: 'COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    url: buildingsafetycerficate,
-  },
-  // {
-  //  id: 7,
-  //  name : 'COPY OF BUILDING NOC  CERTIFICATE',
-  //  url: document10,
-  // },
-  {
-    id: 8,
-    name: 'AFFIDAVIT - NON PROPRIETARY CHARACTER OF SOCIETY',
-    url: AffiDavit,
-  },
-  {
-    id: 9,
-    name: 'COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES',
-    url: water,
-  },
-  // {
-  //   id: 10,
-  //   name: 'COPY OF LAND CERTIFICATE',
-  //   url: document9,
-  // },
-  {
-    id: 11,
-    name: '3 YEARS AUDIT REPORT',
-    url:document11
-  },
-  {
-    id:12,
-    name: 'SELF CERTIFICATION',
-    url: Selfcertificate,
-  },
-  {
-    id:13,
-    name: 'ROOM DETAILS AFFIDAVIT',
-    url: RoomAffiDavit,
-  },
-  // {
-  //   id:14,
-  //   name: 'LAND LEASE DEED',
-  //   url: document14,
-  // }
-
-
-
+  { id: 1, img: Staff, title: 'Staff Room' },
+  { id: 2, img: ClassRoom, title: 'Class Room' },
+  { id: 3, img: Water, title: 'Water Facility' },
+  { id: 4, img: Library, title: 'Library' },
+  { id: 5, img: GirlsBathroom, title: 'Girls Bathroom' },
+  { id: 6, img: BoysBathroom, title: 'Boys Bathroom' },
+  { id: 7, img: PlayGround, title: 'Playground' },
+  { id: 8, img: Transport, title: 'Transport' },
+  { id: 9, img: ChemistryLab, title: 'Chemistry & Physics Lab' },
 ];
 
+const information = [
+  { id: 1, title: 'NAME OF SCHOOL', description: 'SANATAN VIDYA NIKETAN' },
+  { id: 2, title: 'AFFILIATION NO.', description: 'N/A' },
+  { id: 3, title: 'SCHOOL CODE', description: 'N/A' },
+  { id: 4, title: 'ADDRESS', description: 'Sanatan Road, Jamuary, Kanke, Ranchi, Jharkhand - 834 006' },
+  { id: 5, title: 'PRINCIPAL NAME & QUALIFICATION', description: '' },
+  { id: 6, title: 'EMAIL', description: 'sanatanvidyan@gmail.com' },
+  { id: 7, title: 'CONTACT', description: '' },
+];
+
+const documents = [
+  { id: 1, name: 'SOCIETY REGISTRATION CERTIFICATE', url: Rishikulsociety },
+  { id: 2, name: 'NOC BY STATE GOVT.', url: Noc },
+  { id: 3, name: 'RECOGNITION CERTIFICATE', url: Recognition },
+  { id: 4, name: 'FIRE SAFETY CERTIFICATE', url: firesafety },
+  { id: 5, name: 'BUILDING SAFETY CERTIFICATE', url: buildingsafetycerficate },
+  { id: 6, name: 'NON-PROPRIETARY AFFIDAVIT', url: AffiDavit },
+  { id: 7, name: 'WATER & SANITATION CERTIFICATE', url: water },
+  { id: 8, name: '3 YEARS AUDIT REPORT', url: document11 },
+  { id: 9, name: 'SELF CERTIFICATION', url: Selfcertificate },
+  { id: 10, name: 'ROOM DETAILS AFFIDAVIT', url: RoomAffiDavit },
+  { id: 11, name: 'DRINKING WATER CERTIFICATE', url: DrinkingWater },
+  { id: 12, name: 'DRINKING WATER TEST REPORT', url: TestReportWater },
+];
 
 const results = [
-  {
-    id: 0,
-    name: 'SEXUAL HARASSMENT', 
-    url: SexualHarassment,
-  },
-    {
-      id: 1,
-      name: 'FEE STRUCTURE OF THE SCHOOL',
-      url: FeeDetails,
-    },
-    {
-      id: 2,
-      name: 'ANNUAL ACADEMIC CALANDER,',
-      url: AnualCalender,
-    },
-    {
-      id: 3,
-      name: 'LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)',
-      url:result3
-    },
-    {
-      id: 4,
-      name: 'TEACHER LIST',
-      url: TeacherList,
-    },
-    {
-      id: 5,
-      name: 'NON TEACHING STAFF',
-      url: SalaryNonTeaching,
-    },
-    {
-      id: 6,
-      name: 'STUDENT STRENGTH',
-      url: result5
-    },
-    {
-      id:7,
-      name: 'PARENT TEACHER',
-      url: PTA,
-    },
-    {
-      id:8,
-      name: 'ACADEMIC CALENDER',
-      url: AcademicCalender,
-    },
-    {
-      id:9,
-      name: 'CLASS STRENGTH',
-      url: ClassStrength,
-    },
-    {
-      id:10,
-      name: 'TEACHER SALARY',
-      url: TeacherList,
-    }
-  ];
+  { id: 1, name: 'SEXUAL HARASSMENT COMMITTEE', url: SexualHarassment },
+  { id: 2, name: 'FEE STRUCTURE', url: FeeDetails },
+  { id: 3, name: 'ANNUAL CALENDAR', url: AnualCalender },
+  { id: 4, name: 'SCHOOL MANAGEMENT COMMITTEE (SMC)', url: result3 },
+  { id: 5, name: 'TEACHER LIST', url: result4 },
+  { id: 6, name: 'NON-TEACHING STAFF SALARY', url: SalaryNonTeaching },
+  { id: 7, name: 'STUDENT STRENGTH', url: result5 },
+  { id: 8, name: 'PARENT TEACHER ASSOCIATION', url: PTA },
+  { id: 9, name: 'ACADEMIC CALENDAR', url: AcademicCalender },
+  { id: 10, name: 'CLASS STRENGTH', url: ClassStrength },
+  { id: 11, name: 'LAST 6 MONTHS AUDIT', url: Audit },
+];
 
-
-  const additionalData = [
-    {
-      id: 1,
-      title: 'PRINCIPAL',
-      description: '1',
-    },
-    {
-      id: 2,
-      title: 'TOTAL NO. OF TEACHERS',
-      description: '12',
-    },
-    {
-        id: 4,
-        title: 'TGT',
-        description: '9',
-    },
-    {
-        id: 5,
-        title: 'PRT',
-        description: '3',
-    },
-    {
-        id: 6,
-        title: 'STUDENTS TEACHERS RATIO',
-        description: '20:1',
-    },
-    {
-        id: 7,
-        title: 'DETAILS OF SPECIAL EDUCATION',
-        description: 'NA',
-    },
-    // {
-    //     id: 8,
-    //     title: 'DETAILS OF COUNSELLOR AND WELNESS TEACHERS',
-    //     description: '2',
-    // }
-
-]  
+const additionalData = [
+  { id: 1, title: 'PRINCIPAL', description: '1' },
+  { id: 2, title: 'TOTAL TEACHERS', description: '12' },
+  { id: 3, title: 'TGT', description: '9' },
+  { id: 4, title: 'PRT', description: '3' },
+  { id: 5, title: 'STUDENT:TEACHER RATIO', description: '20:1' },
+  { id: 6, title: 'SPECIAL EDUCATION', description: 'NA' },
+];
 
 const infrastructure = [
-    {
-      id: 1,
-      title: 'TOTAL CMAPUS AREA OF THE SCHOOL (IN SQUARE MRT)',
-      description: '8000 Sq/m',
-    },
-    // {
-    //   id: 2,
-    //   title: 'NO. AND SIZE OF THE CLASS ROOMS (IN SQ MTR)',
-    //   description: '1',
-    // },
-    // {
-    //   id: 3,
-    //   title: 'NO. AND SIZE LABORATORIES INCLUDING COMPUTER LABS (IN SQ MTR)',
-    //   description: '',
-    // },
-    {
-        id: 4,
-        title: 'INTERNET FACILITY (Y/N)',
-        description: 'YES',
-    },
-    // {
-    //     id: 5,
-    //     title: 'NO. OF GIRLS TOILETS',
-    //     description: '',
-    // },
-    // {
-    //     id: 6,
-    //     title: 'NO. OF BOYS TOILETS',
-    //     description: '',
-    // },
-    
-]
-
-  
+  { id: 1, title: 'TOTAL CAMPUS AREA', description: '8000 Sq/m' },
+  { id: 2, title: 'INTERNET FACILITY', description: 'YES' },
+];
 
 const Mandotry = () => {
   const handleDownload = (url) => {
-    if (url) {
-      window.location.href = url;
-    } else {
-      alert('Document not available for download');
-    }
+    if (url) window.open(url, '_blank');
+    else alert('Document not available for download');
   };
+
+  const renderTable = (title, data) => (
+    <div className='container my-5'>
+      <h2 className='text-center mb-5'>{title}</h2>
+      <div className="table-responsive">
+        <table className='table table-striped table-bordered'>
+          <thead className='table-dark'>
+            <tr>
+              <th>SL NO.</th>
+              <th>TITLE</th>
+              <th>DESCRIPTION</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.id}>
+                <td>{item.id}</td>
+                <td>{item.title}</td>
+                <td>{item.description}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+
+  const renderDownloadTable = (title, data) => (
+    <div className='container my-5'>
+      <h2 className='text-center mb-5'>{title}</h2>
+      <div className="table-responsive">
+        <table className='table table-striped table-bordered'>
+          <thead className='table-dark'>
+            <tr>
+              <th>SL NO.</th>
+              <th>DOCUMENT</th>
+              <th>DOWNLOAD</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.id}>
+                <td>{item.id}</td>
+                <td>{item.name}</td>
+                <td>
+                  {item.url ? (
+                    <button className='btn btn-primary btn-sm' onClick={() => handleDownload(item.url)}>Download</button>
+                  ) : (
+                    <span className='text-muted'>Not available</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
 
   return (
     <div className="about-page">
-      <header className='height-75'>
-        <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-          <h1 className='text-center fw-semibold'>Mandatory Disclosure</h1>
-          <p className='text-center w-75 mb-5'>
-          "Mandatory Disclosure" section typically provides essential information about an institution, ensuring transparency and compliance with regulatory requirements.
+      <header className='height-75 bg-dark text-light d-flex align-items-center justify-content-center text-center'>
+        <div className='container'>
+          <h1 className='fw-semibold'>Mandatory Disclosure</h1>
+          <p className='mt-3'>
+            "Mandatory Disclosure" provides essential institutional details ensuring transparency and regulatory compliance.
           </p>
         </div>
       </header>
-      <div className='container my-5'>
-        <h2 className='text-center mb-5'>A : GENERAL INFORMATION:</h2>
-        <table className='table table-striped'>
-          <thead>
-            <tr>
-              <th>SL NO.</th>
-              <th>TITLE</th>
-              <th>DESCRIPTION</th>
-            </tr>
-          </thead>
-          <tbody>
-            {information.map((item) => (
-              <tr key={item.id}>
-                <td>{item.id}</td>
-                <td>{item.title}</td>
-                <td>{item.description}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
 
-      
-      
-
-      <div className='container my-5'>
-        <h2 className='text-center mb-5'>B: DOCUMENTS AND INFORMATION</h2>
-        <table className='table table-striped'>
-          <thead>
-            <tr>
-              <th>SL NO.</th>
-              <th>DOCUMENTS/INFORMATION</th>
-              <th>DOWNLOAD DOCUMENT</th>
-            </tr>
-          </thead>
-          <tbody>
-            {documents.map((doc) => (
-              <tr key={doc.id}>
-                <td>{doc.id}</td>
-                <td>{doc.name}</td>
-                <td>
-                  {doc.url ? (
-                    <button onClick={() => handleDownload(doc.url)} className='btn btn-primary'>
-                      Download
-                    </button>
-                  ) : (
-                    <span className='text-muted'>Not available</span>
-                  )}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className='container my-5'>
-        <h2 className='text-center mb-5'>C : RESULT AND ACADMICS</h2>
-        <table className='table table-striped'>
-          <thead>
-            <tr>
-              <th>SL NO.</th>
-              <th>DOCUMENTS/INFORMATION</th>
-              <th>DOWNLOAD DOCUMENT</th>
-            </tr>
-          </thead>
-          <tbody>
-            {results.map((doc) => (
-              <tr key={doc.id}>
-                <td>{doc.id}</td>
-                <td>{doc.name}</td>
-                <td>
-                  {doc.url ? (
-                    <button onClick={() => handleDownload(doc.url)} className='btn btn-primary'>
-                      Download
-                    </button>
-                  ) : (
-                    <span className='text-muted'>Not available</span>
-                  )}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className='container my-5'>
-        <h2 className='text-center mb-5'>D : STAFF (TEACHING)</h2>
-        <table className='table table-striped'>
-          <thead>
-            <tr>
-              <th>SL NO.</th>
-              <th>TITLE</th>
-              <th>DESCRIPTION</th>
-            </tr>
-          </thead>
-          <tbody>
-            {additionalData.map((item) => (
-              <tr key={item.id}>
-                <td>{item.id}</td>
-                <td>{item.title}</td>
-                <td>{item.description}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className='container my-5'>
-        <h2 className='text-center mb-5'>E: SCHOOL INFRASTRURE:</h2>
-        <table className='table table-striped'>
-          <thead>
-            <tr>
-              <th>SL NO.</th>
-              <th>TITLE</th>
-              <th>DESCRIPTION</th>
-            </tr>
-          </thead>
-          <tbody>
-            {infrastructure.map((item) => (
-              <tr key={item.id}>
-                <td>{item.id}</td>
-                <td>{item.title}</td>
-                <td>{item.description}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>      
+      {renderTable("A : GENERAL INFORMATION", information)}
+      {renderDownloadTable("B : DOCUMENTS AND INFORMATION", documents)}
+      {renderDownloadTable("C : RESULT AND ACADEMICS", results)}
+      {renderTable("D : STAFF (TEACHING)", additionalData)}
+      {renderTable("E : SCHOOL INFRASTRUCTURE", infrastructure)}
 
       <div className='bg-body-tertiary py-5'>
-            <div className="container">
-                <div className="row g-4">
-                    {school.map((blog) => (
-                        <div key={blog.id} className='col-md-6 col-lg-4'>
-                            <Link to="/gallery" className='text-decoration-none'>
-                                <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'>
-                                    <Card.Img variant="top" src={blog.img} />
-                                    <Card.Body className='p-md-5 d-flex flex-column align-items-center'>
-                                        <Card.Title className='fs-2 mb-4 text-center'>{blog.title}</Card.Title>
-                                        <Card.Text className='text-center'>{blog.description}</Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </Link>
-                        </div>
-                    ))}
-                </div>
-            </div>
+        <div className="container">
+          <div className="row g-4">
+            {school.map((item) => (
+              <div key={item.id} className='col-12 col-md-6 col-lg-4'>
+                <Link to="/gallery" className='text-decoration-none'>
+                  <Card className='h-100 shadow scale-hover-effect border-0'>
+                    <Card.Img variant="top" src={item.img} style={{ objectFit: 'cover', height: '200px' }} />
+                    <Card.Body className='d-flex flex-column align-items-center'>
+                      <Card.Title className='text-center'>{item.title}</Card.Title>
+                    </Card.Body>
+                  </Card>
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
-
+      </div>
     </div>
   );
 };
