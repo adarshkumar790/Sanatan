@@ -99,10 +99,10 @@ const results = [
 
 const additionalData = [
   { id: 1, title: 'PRINCIPAL', description: '1' },
-  { id: 2, title: 'TOTAL TEACHERS', description: '12' },
+  { id: 2, title: 'TOTAL TEACHERS', description: '16' },
   { id: 3, title: 'TGT', description: '05' },
   { id: 4, title: 'PRT', description: '06' },
-  { id: 5, title: 'NTT', description: '04' },
+  { id: 5, title: 'NTT', description: '05' },
   { id: 6, title: 'STUDENT:TEACHER RATIO', description: '20:1' },
   { id: 7, title: 'SPECIAL EDUCATION', description: 'NA' },
 ];
