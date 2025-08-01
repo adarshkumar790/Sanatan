@@ -60,7 +60,7 @@ const information = [
   { id: 3, title: 'SCHOOL CODE', description: 'N/A' },
   { id: 4, title: 'ADDRESS', description: 'Sanatan Road, Jamuary, Kanke, Ranchi, Jharkhand - 834 006' },
   { id: 5, title: 'PRINCIPAL NAME & QUALIFICATION', description: '' },
-  { id: 6, title: 'EMAIL', description: 'sanatanvidyan@gmail.com' },
+  { id: 6, title: 'EMAIL', description: 'sanatanvidya12@gmail.com' },
   { id: 7, title: 'CONTACT', description: '' },
 ];
 
@@ -96,10 +96,11 @@ const results = [
 const additionalData = [
   { id: 1, title: 'PRINCIPAL', description: '1' },
   { id: 2, title: 'TOTAL TEACHERS', description: '12' },
-  { id: 3, title: 'TGT', description: '9' },
-  { id: 4, title: 'PRT', description: '3' },
-  { id: 5, title: 'STUDENT:TEACHER RATIO', description: '20:1' },
-  { id: 6, title: 'SPECIAL EDUCATION', description: 'NA' },
+  { id: 3, title: 'TGT', description: '05' },
+  { id: 4, title: 'PRT', description: '06' },
+  { id: 5, title: 'NTT', description: '01' },
+  { id: 6, title: 'STUDENT:TEACHER RATIO', description: '20:1' },
+  { id: 7, title: 'SPECIAL EDUCATION', description: 'NA' },
 ];
 
 const infrastructure = [
