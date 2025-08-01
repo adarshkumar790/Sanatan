@@ -131,7 +131,7 @@ function App() {
                       <p>Phone-9576035071, 8210499465</p>
                     </li>
                     <li>
-                      <p>Email:-sanatanvidyan@gmail.com</p>
+                      <p>Email:-sanatanvidya12@gmail.com</p>
                     </li>
                   </ul>
                 </div>

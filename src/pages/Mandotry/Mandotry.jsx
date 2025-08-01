@@ -32,7 +32,7 @@ import AffiDavit from '../../utils/images/AffiDavit.pdf';
 import FeeDetails from '../../utils/images/FeeDetails.pdf';
 import result3 from '../../utils/images/SMCJamuary.pdf';
 import result5 from '../../utils/images/Strength.pdf';
-import result4 from '../../utils/images/TeacherList.pdf';
+import result4 from '../../utils/images/TeacherLists.pdf';
 import result6 from '../../utils/images/NonTeacherList.pdf';
 import PTA from '../../utils/images/PTA.pdf';
 import AnualCalender from '../../utils/images/AnualCalender.pdf';
@@ -41,6 +41,8 @@ import ClassStrength from "../../utils/images/ClassStrength.pdf";
 import SexualHarassment from '../../utils/images/Sexual Harrassment Committee.pdf';
 import SalaryNonTeaching from '../../utils/images/Salary of Non-Teaching Staff.pdf';
 import Audit from '../../utils/images/Audit.pdf';
+import TeacherSalary from '../../utils/images/TeacherSalary.pdf';
+import SchoolSafetyandSecurityCommittee from '../../utils/images/SchoolSafetyandSecurityCommittee.pdf';
 
 const school = [
   { id: 1, img: Staff, title: 'Staff Room' },
@@ -77,6 +79,7 @@ const documents = [
   { id: 10, name: 'ROOM DETAILS AFFIDAVIT', url: RoomAffiDavit },
   { id: 11, name: 'DRINKING WATER CERTIFICATE', url: DrinkingWater },
   { id: 12, name: 'DRINKING WATER TEST REPORT', url: TestReportWater },
+  { id: 13, name: 'SCHOOL SAFETY AND SECURITY COMMITTEE', url: SchoolSafetyandSecurityCommittee },
 ];
 
 const results = [
@@ -85,12 +88,13 @@ const results = [
   { id: 3, name: 'ANNUAL CALENDAR', url: AnualCalender },
   { id: 4, name: 'SCHOOL MANAGEMENT COMMITTEE (SMC)', url: result3 },
   { id: 5, name: 'TEACHER LIST', url: result4 },
-  { id: 6, name: 'NON-TEACHING STAFF SALARY', url: SalaryNonTeaching },
-  { id: 7, name: 'STUDENT STRENGTH', url: result5 },
-  { id: 8, name: 'PARENT TEACHER ASSOCIATION', url: PTA },
-  { id: 9, name: 'ACADEMIC CALENDAR', url: AcademicCalender },
-  { id: 10, name: 'CLASS STRENGTH', url: ClassStrength },
-  { id: 11, name: 'LAST 6 MONTHS AUDIT', url: Audit },
+  { id: 6, name: 'TEACHER SALARY', url: TeacherSalary },
+  { id: 7, name: 'NON-TEACHING STAFF SALARY', url: SalaryNonTeaching },
+  { id: 8, name: 'STUDENT STRENGTH', url: result5 },
+  { id: 9, name: 'PARENT TEACHER ASSOCIATION', url: PTA },
+  { id: 10, name: 'ACADEMIC CALENDAR', url: AcademicCalender },
+  { id: 11, name: 'CLASS STRENGTH', url: ClassStrength },
+  { id: 12, name: 'LAST 6 MONTHS AUDIT', url: Audit },
 ];
 
 const additionalData = [
@@ -98,7 +102,7 @@ const additionalData = [
   { id: 2, title: 'TOTAL TEACHERS', description: '12' },
   { id: 3, title: 'TGT', description: '05' },
   { id: 4, title: 'PRT', description: '06' },
-  { id: 5, title: 'NTT', description: '01' },
+  { id: 5, title: 'NTT', description: '04' },
   { id: 6, title: 'STUDENT:TEACHER RATIO', description: '20:1' },
   { id: 7, title: 'SPECIAL EDUCATION', description: 'NA' },
 ];
