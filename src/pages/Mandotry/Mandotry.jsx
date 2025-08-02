@@ -43,6 +43,7 @@ import SalaryNonTeaching from '../../utils/images/Salary of Non-Teaching Staff.p
 import Audit from '../../utils/images/Audit.pdf';
 import TeacherSalary from '../../utils/images/TeacherSalary.pdf';
 import SchoolSafetyandSecurityCommittee from '../../utils/images/SchoolSafetyandSecurityCommittee.pdf';
+import SelfcertificateAffidavit from '../../utils/images/Self Certificate Affidavite.pdf';
 
 const school = [
   { id: 1, img: Staff, title: 'Staff Room' },
@@ -73,9 +74,10 @@ const documents = [
   // { id: 4, name: 'FIRE SAFETY CERTIFICATE', url: firesafety },
   { id: 5, name: 'BUILDING SAFETY CERTIFICATE', url: buildingsafetycerficate },
   { id: 6, name: 'NON-PROPRIETARY AFFIDAVIT', url: AffiDavit },
-  { id: 7, name: 'WATER & SANITATION CERTIFICATE', url: water },
+  { id: 7, name: 'SELF CERTIFICATE AFFIDAVIT', url: SelfcertificateAffidavit },
   { id: 8, name: '3 YEARS AUDIT REPORT', url: document11 },
   { id: 9, name: 'SELF CERTIFICATION', url: Selfcertificate },
+
   { id: 10, name: 'ROOM DETAILS AFFIDAVIT', url: RoomAffiDavit },
   { id: 11, name: 'DRINKING WATER CERTIFICATE', url: DrinkingWater },
   { id: 12, name: 'DRINKING WATER TEST REPORT', url: TestReportWater },
