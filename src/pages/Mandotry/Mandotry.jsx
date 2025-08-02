@@ -61,7 +61,7 @@ const information = [
   { id: 2, title: 'AFFILIATION NO.', description: 'N/A' },
   { id: 3, title: 'SCHOOL CODE', description: 'N/A' },
   { id: 4, title: 'ADDRESS', description: 'Sanatan Road, Jamuary, Kanke, Ranchi, Jharkhand - 834 006' },
-  { id: 5, title: 'PRINCIPAL NAME & QUALIFICATION', description: '' },
+  { id: 5, title: 'PRINCIPAL NAME & QUALIFICATION', description: 'Pratima Singh & M.A, B.Ed'},
   { id: 6, title: 'EMAIL', description: 'sanatanvidya12@gmail.com' },
   { id: 7, title: 'CONTACT', description: '' },
 ];
@@ -70,7 +70,7 @@ const documents = [
   { id: 1, name: 'SOCIETY REGISTRATION CERTIFICATE', url: Rishikulsociety },
   { id: 2, name: 'NOC BY STATE GOVT.', url: Noc },
   { id: 3, name: 'RECOGNITION CERTIFICATE', url: Recognition },
-  { id: 4, name: 'FIRE SAFETY CERTIFICATE', url: firesafety },
+  // { id: 4, name: 'FIRE SAFETY CERTIFICATE', url: firesafety },
   { id: 5, name: 'BUILDING SAFETY CERTIFICATE', url: buildingsafetycerficate },
   { id: 6, name: 'NON-PROPRIETARY AFFIDAVIT', url: AffiDavit },
   { id: 7, name: 'WATER & SANITATION CERTIFICATE', url: water },
@@ -94,7 +94,7 @@ const results = [
   { id: 9, name: 'PARENT TEACHER ASSOCIATION', url: PTA },
   { id: 10, name: 'ACADEMIC CALENDAR', url: AcademicCalender },
   { id: 11, name: 'CLASS STRENGTH', url: ClassStrength },
-  { id: 12, name: 'LAST 6 MONTHS AUDIT', url: Audit },
+  { id: 12, name: 'LAST 6 MONTHS SALARY', url: Audit },
 ];
 
 const additionalData = [
