@@ -15,21 +15,21 @@ import Blog12Img from '../../utils/images/Principal.jpeg';
 import Blog13Img from '../../utils/images/Shalini.jpeg';
 
 const testimonials = [
-  {
-    name: 'Dr. Dinesh Kr Singh',
-    position: 'Principal',
-    image: [Blog12Img], 
-    testimonial: 'M.Sc (Chem), P.h.D',
-  },
-  {
-    name: 'Pragya Awasthi',
-    position: 'Vice-Principal',
-    image: [Blog10Img], 
-    testimonial: 'M.A, NTT, CIC',
-  },
+  // {
+  //   name: 'Dr. Dinesh Kr Singh',
+  //   position: 'Principal',
+  //   image: [Blog12Img], 
+  //   testimonial: 'M.Sc (Chem), P.h.D',
+  // },
+  // {
+  //   name: 'Pragya Awasthi',
+  //   position: 'Vice-Principal',
+  //   image: [Blog10Img], 
+  //   testimonial: 'M.A, NTT, CIC',
+  // },
   {
     name: 'Pratima Singh',
-    position: 'Senior Hindi Teacher',
+    position: 'Principal',
     image: [Blog1Img], 
     testimonial: 'M.A, B.Ed',
   },
