@@ -71,7 +71,7 @@ const documents = [
   { id: 1, name: 'SOCIETY REGISTRATION CERTIFICATE', url: Rishikulsociety },
   { id: 2, name: 'NOC BY STATE GOVT.', url: Noc },
   { id: 3, name: 'RECOGNITION CERTIFICATE', url: Recognition },
-  // { id: 4, name: 'FIRE SAFETY CERTIFICATE', url: firesafety },
+  { id: 4, name: 'FIRE SAFETY CERTIFICATE', url: firesafety },
   { id: 5, name: 'BUILDING SAFETY CERTIFICATE', url: buildingsafetycerficate },
   { id: 6, name: 'NON-PROPRIETARY AFFIDAVIT', url: AffiDavit },
   { id: 7, name: 'SELF CERTIFICATE AFFIDAVIT', url: SelfcertificateAffidavit },
