@@ -33,7 +33,6 @@ import FeeDetails from '../../utils/images/FeeDetails.pdf';
 import result3 from '../../utils/images/SMCJamuary.pdf';
 import result5 from '../../utils/images/Strength.pdf';
 import result4 from '../../utils/images/TeacherLists.pdf';
-import result6 from '../../utils/images/NonTeacherList.pdf';
 import PTA from '../../utils/images/PTA.pdf';
 import AnualCalender from '../../utils/images/AnualCalender.pdf';
 import AcademicCalender from '../../utils/images/AcademicCalendar.pdf';
@@ -75,7 +74,7 @@ const documents = [
   { id: 5, name: 'BUILDING SAFETY CERTIFICATE', url: buildingsafetycerficate },
   { id: 6, name: 'NON-PROPRIETARY AFFIDAVIT', url: AffiDavit },
   { id: 7, name: 'SELF CERTIFICATE AFFIDAVIT', url: SelfcertificateAffidavit },
-  { id: 8, name: '3 YEARS AUDIT REPORT', url: document11 },
+  // { id: 8, name: '3 YEARS AUDIT REPORT', url: document11 },
   { id: 9, name: 'SELF CERTIFICATION', url: Selfcertificate },
 
   { id: 10, name: 'ROOM DETAILS AFFIDAVIT', url: RoomAffiDavit },
@@ -89,24 +88,27 @@ const results = [
   { id: 2, name: 'FEE STRUCTURE', url: FeeDetails },
   { id: 3, name: 'ANNUAL CALENDAR', url: AnualCalender },
   { id: 4, name: 'SCHOOL MANAGEMENT COMMITTEE (SMC)', url: result3 },
-  { id: 5, name: 'TEACHER LIST', url: result4 },
-  { id: 6, name: 'TEACHER SALARY', url: TeacherSalary },
-  { id: 7, name: 'NON-TEACHING STAFF SALARY', url: SalaryNonTeaching },
+  // { id: 5, name: 'TEACHER LIST', url: result4 },
+  // { id: 6, name: 'TEACHER SALARY', url: TeacherSalary },
+  // { id: 7, name: 'NON-TEACHING STAFF SALARY', url: SalaryNonTeaching },
   { id: 8, name: 'STUDENT STRENGTH', url: result5 },
   { id: 9, name: 'PARENT TEACHER ASSOCIATION', url: PTA },
   { id: 10, name: 'ACADEMIC CALENDAR', url: AcademicCalender },
   { id: 11, name: 'CLASS STRENGTH', url: ClassStrength },
-  { id: 12, name: 'LAST 6 MONTHS SALARY', url: Audit },
+  // { id: 12, name: 'LAST 6 MONTHS SALARY', url: Audit },
 ];
 
 const additionalData = [
-  { id: 1, title: 'PRINCIPAL', description: '1' },
-  { id: 2, title: 'TOTAL TEACHERS', description: '16' },
-  { id: 3, title: 'TGT', description: '05' },
-  { id: 4, title: 'PRT', description: '06' },
-  { id: 5, title: 'NTT', description: '05' },
+  { id: 1, title: 'PRINCIPAL', description: '01' },
+  { id: 2, title: 'TOTAL TEACHERS', description: '21' },
+  { id: 3, title: 'TGT', description: '08' },
+  { id: 4, title: 'PRT', description: '08' },
+  { id: 5, title: 'NTT', description: '02' },
   { id: 6, title: 'STUDENT:TEACHER RATIO', description: '20:1' },
   { id: 7, title: 'SPECIAL EDUCATION', description: 'NA' },
+  { id: 8, title: 'PTI', description: '01' },
+  { id: 9, title: 'COUNSELLOR', description: '01' },
+  { id: 10, title: 'LIBRARIAN', description: '01' },
 ];
 
 const infrastructure = [
