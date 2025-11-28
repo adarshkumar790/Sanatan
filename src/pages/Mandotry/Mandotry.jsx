@@ -28,7 +28,6 @@ import TestReportWater from '../../utils/images/TestReportWater.pdf';
 import document11 from '../../utils/images/Audit.pdf';
 import AffiDavit from '../../utils/images/AffiDavit.pdf';
 
-// Results
 import FeeDetails from '../../utils/images/FeeDetails.pdf';
 import result3 from '../../utils/images/SMCJamuary.pdf';
 import result5 from '../../utils/images/Strength.pdf';
@@ -42,7 +41,7 @@ import SalaryNonTeaching from '../../utils/images/Salary of Non-Teaching Staff.p
 import Audit from '../../utils/images/Audit.pdf';
 import TeacherSalary from '../../utils/images/TeacherSalary.pdf';
 import SchoolSafetyandSecurityCommittee from '../../utils/images/SchoolSafetyandSecurityCommittee.pdf';
-import SelfcertificateAffidavit from '../../utils/images/Self Certificate Affidavite.pdf';
+import SelfcertificateAffidavit from '../../utils/images/SelfCertificateNew.pdf';
 
 const school = [
   { id: 1, img: Staff, title: 'Staff Room' },
@@ -73,7 +72,7 @@ const documents = [
   { id: 4, name: 'FIRE SAFETY CERTIFICATE', url: firesafety },
   { id: 5, name: 'BUILDING SAFETY CERTIFICATE', url: buildingsafetycerficate },
   { id: 6, name: 'NON-PROPRIETARY AFFIDAVIT', url: AffiDavit },
-  { id: 7, name: 'SELF CERTIFICATE AFFIDAVIT', url: SelfcertificateAffidavit },
+  { id: 7, name: 'SELF CERTIFICATE', url: SelfcertificateAffidavit },
   // { id: 8, name: '3 YEARS AUDIT REPORT', url: document11 },
   { id: 9, name: 'SELF CERTIFICATION', url: Selfcertificate },
 
