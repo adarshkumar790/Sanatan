@@ -48,21 +48,21 @@ const school = [
   { id: 2, img: ClassRoom, title: 'Class Room' },
   { id: 3, img: Water, title: 'Water Facility' },
   { id: 4, img: Library, title: 'Library' },
-  { id: 5, img: GirlsBathroom, title: 'Girls Bathroom' },
-  { id: 6, img: BoysBathroom, title: 'Boys Bathroom' },
+  // { id: 5, img: GirlsBathroom, title: 'Girls Bathroom' },
+  // { id: 6, img: BoysBathroom, title: 'Boys Bathroom' },
   { id: 7, img: PlayGround, title: 'Playground' },
-  { id: 8, img: Transport, title: 'Transport' },
+  // { id: 8, img: Transport, title: 'Transport' },
   { id: 9, img: ChemistryLab, title: 'Chemistry & Physics Lab' },
 ];
 
 const information = [
   { id: 1, title: 'NAME OF SCHOOL', description: 'SANATAN VIDYA NIKETAN' },
-  { id: 2, title: 'AFFILIATION NO.', description: 'N/A' },
-  { id: 3, title: 'SCHOOL CODE', description: 'N/A' },
+  { id: 2, title: 'AFFILIATION NO.', description: '30781' },
+  { id: 3, title: 'SCHOOL CODE', description: '67160' },
   { id: 4, title: 'ADDRESS', description: 'Sanatan Road, Jamuary, Kanke, Ranchi, Jharkhand - 834 006' },
   { id: 5, title: 'PRINCIPAL NAME & QUALIFICATION', description: 'Pratima Singh & M.A, B.Ed'},
   { id: 6, title: 'EMAIL', description: 'sanatanvidya12@gmail.com' },
-  { id: 7, title: 'CONTACT', description: '' },
+  { id: 7, title: 'CONTACT', description: '8210499465' },
 ];
 
 const documents = [
