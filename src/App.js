@@ -45,7 +45,6 @@ function App() {
               <Nav.Link href='/gallery' className='text-uppercase'>Gallery</Nav.Link>
               <Nav.Link href='/bus' className='text-uppercase'>Bus</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Contact</Nav.Link>
-              
             </Nav>
           </Navbar.Collapse>
         </Container>
