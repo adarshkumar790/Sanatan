@@ -8,7 +8,6 @@ import Courses from './pages/Courses/Courses';
 import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
-import Bus from './pages/Bus/Bus';
 import Syallubus from './pages/Syallubus/Syallubus';
 import TeacherTestimonials from './pages/Teacher/Techaer';
 import Mandotry from './pages/Mandotry/Mandotry';
