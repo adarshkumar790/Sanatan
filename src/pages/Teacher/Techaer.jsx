@@ -119,7 +119,7 @@ const TeacherTestimonials = () => {
                 <p className="position">{testimonial.position}</p>
               </div>
             </div>
-            <p className="testimonial">Qualification:-{testimonial.testimonial}</p>
+            {/* <p className="testimonial">Qualification:-{testimonial.testimonial}</p> */}
           </div>
         ))}
       </div>
