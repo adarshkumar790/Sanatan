@@ -8,7 +8,7 @@ import Courses from './pages/Courses/Courses';
 import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
-import Bus from './pages/Bus/Bus';
+// import Bus from './pages/Bus/Bus';
 import Syallubus from './pages/Syallubus/Syallubus';
 import TeacherTestimonials from './pages/Teacher/Techaer';
 import Mandotry from './pages/Mandotry/Mandotry';
@@ -43,7 +43,7 @@ function App() {
               <Nav.Link href='/teachers' className='text-uppercase'>Teacher</Nav.Link>
               <Nav.Link href='/syallubus' className='text-uppercase'>Syallubus</Nav.Link>
               <Nav.Link href='/gallery' className='text-uppercase'>Gallery</Nav.Link>
-              <Nav.Link href='/bus' className='text-uppercase'>Bus</Nav.Link>
+              {/* <Nav.Link href='/bus' className='text-uppercase'>Bus</Nav.Link> */}
               <Nav.Link href='/contact' className='text-uppercase'>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -55,7 +55,7 @@ function App() {
         <Route path='/courses' element={<Courses />} />
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Blog />} />
-        <Route path='/bus' element={<Bus />} />
+        {/* <Route path='/bus' element={<Bus />} /> */}
         <Route path='/manadetory' element={<Mandotry/>} />
         <Route path='/syallubus' element={<Syallubus />} />
         <Route path='/teachers' element={<TeacherTestimonials />} />
